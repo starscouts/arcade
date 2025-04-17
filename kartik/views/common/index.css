@@ -1,0 +1,29 @@
+#titlebar-minimize, #titlebar-close {
+    background-color: transparent;
+    transition: background-color 200ms;
+    border-radius: 10px;
+}
+
+#titlebar-minimize:hover {
+    background-color: rgba(99, 99, 99, .5);
+}
+
+#titlebar-minimize:focus, #titlebar-minimize:active {
+    background-color: rgba(99, 99, 99, .75);
+}
+
+#titlebar-close:hover {
+    background-color: rgba(255, 0, 0, .5);
+}
+
+#titlebar-close:focus, #titlebar-close:active {
+    background-color: rgba(255, 0, 0, .75);
+}
+
+*::selection {
+    background-color: transparent;
+}
+
+*::inactive-selection {
+    background-color: transparent;
+}

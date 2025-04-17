@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>native = false;global = window;info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};currentNest = {};</script><script src="../webinit/jquery.js"></script><script>window.kresources = kresources = JSON.parse($.ajax("/kartik/resources.json", { async: false }).responseText);</script>
+    <script src="../lang/loader.js"></script>
+    <script src="../scenario/client.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common/fonts.css">
+    <link rel="stylesheet" href="common/blur.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Kartik</title>
+    <script src="../crash/client.js"></script>
+    <script src="./script/global_compatlayer.js"></script><script src="../typescript/mainloader.js"></script>
+    <script src="./script/menu_login.js"></script>
+    <script src="../sfx/sfx.js"></script>
+    <script src="./rain/snow.js"></script>
+    <script>
+        snowStorm.flakesMaxActive = 80;
+        snowStorm.followMouse = false;
+        snowStorm.snowStick = false;
+
+        scenar("intro", "neutral");
+
+    </script>
+</head>
+<body class="back-row-toggle splat-toggle">
+    <script>info("MainWindow", "Rendering initial frame...");
+    
+    if (native) {
+        scale=require('@electron/remote').getCurrentWindow().scale;document.body.style.zoom=scale;
+    }
+    
+    </script>
+    <div id="box" style="display: none;background:#9abecd;position:fixed;top:0;left:0;right:0;bottom:0;">
+        <div id="loggingIn" style="position: fixed;color: white;background: rgba(0, 0, 0, .5);z-index: 999999999999;top: 0;left: 0;right: 0;bottom: 0;display: none;align-items: center;justify-content: center;backdrop-filter: blur(10px);"><script>document.write(lang.polymer.logging);</script></div>
+
+        <div class="rain front-row"></div>
+        <div class="rain back-row"></div>
+
+        <div style="width: 100%;height: 100%;opacity:.5;background-image: url('./menu.jpg');background-size: cover;position: fixed;z-index: -1;"></div>
+        <img alt="full-logo" class="full-logo" src="../logo/full.png" style="margin-left: 50px;margin-top: 30px;height: 96px;">
+        <div id="services-background"></div>
+
+        <div class="services home">
+            <div class="items">
+                <ul>
+                    <li class="selected"><span class="item"><a href="#" id="single"><img class="item-icon" src="../icons/singleplayer.svg"> <span class="item-text"><script>document.write(lang.menu.titles[0])</script></span></a></span></li>
+                    <script id="prefill">
+                        document.write(`<li><span class="item"><a href="#" id="play"><img class="item-icon" src="../icons/local.svg"> <span class="item-text">${lang.online.menu.local}</span></a></span></li>`)
+                        // document.write(`<li><span class="item"><a href="#" id="online"><img class="item-icon" src="../icons/online.svg"> <span class="item-text">${lang.online.menu.online}</span></a></span></li>`);
+                        document.write(`<li><span class="item"><a href="#" id="settings"><img class="item-icon" src="../icons/settings.svg"> <span class="item-text">${lang.menu.titles[2]}</span></a></span></li>`);
+                        document.getElementById('prefill').outerHTML = "";
+                    </script>
+<!--                    <li><span class="item"><a href="#" id="stats"><img class="item-icon" src="../icons/stats.svg"> <span class="item-text"><script>document.write(lang.stats.menu)</script></span></a></span></li>-->
+                    <li><span class="item"><a href="#" id="quit"><img class="item-icon" src="../icons/exit.svg"> <span class="item-text"><script>document.write(lang.menu.titles[4])</script></span></a></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="display:none;position: fixed;right: 16px;top: 79px;color: white;background: rgba(0, 0, 0, .5);font-size: 10px;text-align:left;z-index:999999999;padding: 10px;border-radius: 10px;width: 189px;" id="gpuinfo">
+            <span style="text-align:center;display:block;font-weight: bold;margin-bottom: 5px;"><script>document.write(lang.polymer.gpu);</script></span>
+            <div style="margin-bottom: 10px;height: 16px;width: 100%;background: rgba(47, 47, 47, .5);border-radius: 999px;">
+                <div style="height: 16px;background: rgba(128, 0, 0, .5);border-radius: 999px;width: 0;" id="gpuinfo_progressbar"></div>
+            </div>
+            <span id="gpusupportperc" style="display: block;text-align: center;">0%</span>
+            <div id="gpuinfo-model" style="opacity: .25;padding-top: 5px;text-align: center;">-</div>
+            <div id="gpuinfo-vram" style="opacity: .25;padding-top: 5px;text-align: center;">- VRAM</div>
+            <span id="gpuinfo-details" style="border-top:1px solid rgba(255, 255, 255, .25);">
+                <div id="gpuinfo-outer" style="opacity: .25;padding-top: 5px;text-align: center;">↓ <script>document.write(lang.polymer.gpuShift);</script></div>
+                <div id="gpuinfo-inner" style="font-family:monospace;opacity:0;height:0;">
+                    <script src="./script/menu_gpuinfo.js"></script>
+                </div>
+            </span>
+            <script>
+                document.getElementById('gpuinfo-outer').style.display = "none";
+                document.getElementById('gpuinfo-inner').style.display = "none";
+                document.getElementById('gpuinfo-details').style.display = "none";
+            </script>
+        </div>
+
+        <div style="display:none;position: fixed;right: 16px;top: 16px;height:28px;color: white;backdrop-filter:blur(10px);background: rgba(0, 0, 0, .5);font-size: 10px;z-index:999999999;padding: 10px;border-radius: 10px;width: 189px;text-align:center;" id="loginIntro-outer">
+            <span id="loginIntro" style="padding-top: 10px;display: inline-block;"><script>document.write(lang.polymer.loginIntro);</script></span>
+        </div>
+
+        <div style="position: fixed;right: 16px;top: 16px;color: white;font-size: 10px;z-index:999999999;padding-left: 10px;border-radius: 10px;width: 199px;text-align:center;display: none;backdrop-filter: blur(10px);grid-template-columns: 1fr 48px;" id="loginUser"><div style="
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+"><b id="kto-username">Username</b><br><span><script>document.write(lang.polymer.ktoLevel)</script> <span id="kto-level">0</span></span><br><span style="font-size: 10px;"><script>document.write(lang.polymer.logout)</script></span></div><img style="
+    border-bottom-right-radius: 10px;
+    height: 48px;
+    background: rgba(0, 0, 0, .25);
+    display: inline-block;
+    width: 48px;
+    border: none;
+    border-top-right-radius: 10px;
+    outline: none;
+" alt=" " id="kto-picture">
+        </div>
+
+        <span id="copyright" class="copyright">© <script src="./script/menu_copyright.js"></script></span>
+    </div>
+
+    <script src="./script/menu_music.js"></script>
+</body>
+<script src="./script/menu_global.js"></script>
+<script src="./script/client_fullscreen.js"></script>
+</html>

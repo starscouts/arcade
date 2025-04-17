@@ -1,0 +1,33 @@
+.hero-inner {
+    position: fixed;
+    inset: 0;
+    background-image: url('./hero.svg');
+    background-position: 100% 50%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    z-index: -1;
+}
+
+.hero {
+    color: #fff;
+    background: linear-gradient(-45deg, #64f20c, #5cfbc6, #3149ff, #63f777);
+    background-size: auto;
+    background-size: 400% 400%;
+    animation: Gradient 10s ease infinite;
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

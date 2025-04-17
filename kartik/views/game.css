@@ -1,0 +1,152 @@
+#paused {
+    z-index: 5;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paused > div {
+    background: #262626;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+}
+
+#paused * {
+    color: white;
+}
+
+.services li {
+    padding: 10px;
+    font-size: 28px;
+    width: 256px;
+    list-style: none;
+    color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.services li a {
+    color: white !important;
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+.services li.selected a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.services li.selected {
+    background-color: #00ff99;
+}
+
+.services li {
+    background-color: #383838;
+    transition: margin-left 200ms, background-color 200ms;
+}
+
+#circuit.hitboxes, #circuit.hitboxes * {
+    outline: 1px dashed blue;
+}
+
+#car0, #car1 {
+    transition: top 600ms, bottom 600ms, left 600ms, right 600ms, transform 500ms;
+}
+
+#box.paused {
+    opacity: .5;
+}
+
+circuit {
+    display: none;
+}
+
+#credits-inner {
+    position: fixed;
+    z-index: 9;
+    background: #171717;
+    color: white;
+    padding: 20px;
+    display: grid;
+    font-size: 11px;
+    top: 200px;
+    left: 0;
+    right: 0;
+}
+
+#credits .big {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#credits #race, #credits #musicb {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+}
+
+#credits-inner > * > * {
+    vertical-align: middle;
+}
+
+#credits img {
+    filter: invert(100%);
+}
+
+#credits .cbox {
+    width: max-content;
+}
+
+#laps-inner-car0 {
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9;
+    border-radius: 9999px;
+    width: 40px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    padding: 7px 10px 10px;
+}
+
+#laps-inner-car1 {
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9;
+    border-radius: 9999px;
+    width: 40px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    padding: 7px 10px 10px;
+}
+
+.laps-inner-sep {
+    margin: 5px;
+    border: none;
+    border-top: 2px solid white;
+}
+
+#oil img {
+    position: fixed;
+    width: 32px;
+    z-index: 5;
+    opacity: .9;
+}
+
+#credits {
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}

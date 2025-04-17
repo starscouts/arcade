@@ -1,0 +1,237 @@
+{
+  "crash": {
+    "title": "Rapporteur de plantages de Kartik",
+    "head": "Kartik a cessé de fonctionner",
+    "intro": "Kartik a rencontré un problème et s'est arrêté inopinément. Nous avons collecté des informations supplémentaires, et un rapport de plantage a automatiquement été envoyé aux développeurs si vous étiez connecté à Internet.",
+    "report": [
+      "De plus, un rapport de plantage a été créé dans « ",
+      " », afin que vous puissiez l'envoyer aux développeurs lorsque vous aurez accès à Internet."
+    ],
+    "close": "Fermer",
+    "reset": "Réinitialiser Kartik et fermer"
+  },
+  "updates": {
+    "ok": "À jour",
+    "available": "Mises à jour du jeu disponibles",
+    "git": "Exécution de la version trunk",
+    "error": "Impossible de rechercher les mises à jour",
+    "wait": "Recherche de mises à jour...",
+    "warn": [
+        "Des mises à jour sont disponibles",
+        "Téléchargez la nouvelle version de Kartik depuis le site officiel pour bénéficier des dernières fonctionnalités et corrections de bugs."
+    ]
+  },
+  "scenario": {
+    "intro": [
+      "Hey, salut, ça te dit une petite course ?",
+      "Ah, te revoilà ! Ça te dit une petite course ?",
+      "Et si on se faisait une petite course ?",
+      "On fait un tour ?"
+    ],
+    "ahead1": [
+      "Oh non !",
+      "Putain, c'est pas possible !",
+      "Mais je vais pas y arriver...",
+      "Et merde...",
+      "Pourquoi toi ?"
+    ],
+    "ahead2": [
+      "Hi hi hi",
+      "Celle-là est pour moi !",
+      "Je l'aurai !",
+      "Elle est pour moi !",
+      "C'est à moi !"
+    ],
+    "won1": [
+      "Bien joué !",
+      "Tant pis pour moi...",
+      "J'aurai pu espérer...",
+      "Mais, c'est pas très sympa !",
+      "Bravo !"
+    ],
+    "won2": [
+      "Je te l'avais dit !",
+      "Comme si je t'avais pas prévenu !",
+      "J'ai gagné !",
+      "Génial, je l'ai gagnée !",
+      "Et une de plus pour moi !"
+    ],
+    "wall1": [
+      "Ah ah !",
+      "Bah alors, on va pas droit ?",
+      "Ouch",
+      "Ça doit faire mal...",
+      "Splaf, c't'obstacle !"
+    ],
+    "wall2": [
+      "Merde",
+      "Crotte",
+      "Pas possible",
+      "Puti"
+    ],
+    "start": [
+      "Je vais t'éclater !",
+      "Tu vas voir, je vais t'en faire une de ces courses !",
+      "Tu m'en diras des nouvelles",
+      "Allons-y !",
+      "Et, c'est parti !",
+      "Wooo, en avant !"
+    ]
+  },
+  "discord": {
+    "credits": [
+      "En attente",
+      "Dans les crédits"
+    ],
+    "game": [
+      "En jeu",
+      "Mode Solo",
+      "Mode Versus",
+      "En pause"
+    ],
+    "intro": [
+      "En attente",
+      "Sur l'introduction"
+    ],
+    "settings": [
+      "En attente",
+      "Dans les paramètres"
+    ],
+    "win": [
+      "Vient de gagner",
+      "Vient de perdre"
+    ]
+  },
+  "intro": [
+    "Appuyez sur Entrée pour commencer",
+    "Appuyez sur A pour commencer"
+  ],
+  "game": {
+    "credits": {
+      "by": "par"
+    },
+    "gpause": {
+      "title": "Jeu en pause",
+      "continueg": "Continuer",
+      "showhb": "Afficher hitbox",
+      "hidehb": "Masquer hitbox",
+      "quit": "Quitter"
+    }
+  },
+  "menu": {
+    "titles": [
+      "Solo",
+      "Versus",
+      "Options",
+      "Crédits",
+      "Quitter"
+    ],
+    "descriptions": [
+      "Jouer seul et hors ligne contre un robot",
+      "Jouer à deux sur le même écran",
+      "Modifier le zoom et les paramètres",
+      "Afficher la liste des auteurs du jeu",
+      "Fermer le jeu et retourner à"
+    ],
+    "distribute": "Ne pas distribuer"
+  },
+  "settings": {
+    "title": "Options",
+    "back": "Retour",
+    "size": "Taille de l'interface",
+    "music": "Activer la musique",
+    "lang": "Langue",
+    "voice": "Activer la voix",
+    "yes": "oui",
+    "no": "non",
+    "notice": "Les paramètres ne seront appliqués qu'après le redémarrage de Kartik"
+  },
+  "win": {
+    "solo": {
+      "win": "Vous avez gagné !",
+      "lose": "Vous avez perdu !"
+    },
+    "versus": "Joueur 0 a gagné !",
+    "quit": [
+      "Appuyez sur Échap pour quitter",
+      "Appuyez sur B pour quitter"
+    ]
+  },
+  "online": {
+    "menu": {
+      "local": "Local",
+      "online": "En ligne",
+      "dlocal": "Jouer avec un ami sur la même machine",
+      "donline": "Jouer avec un ami sur des machines différentes"
+    },
+    "error": {
+      "connection": "Erreur de communication",
+      "disconnect": "Déconnecté"
+    },
+    "connecting": "Connexion au serveur...",
+    "intro": {
+      "create": "Créer une partie",
+      "pcreate": "Donnez ce code à votre coéquipier pour qu'il se connecte à votre partie :",
+      "join": "Rejoindre une partie",
+      "pjoin": "Entrez le code de votre coéquipier pour rejoindre sa partie :"
+    },
+    "disconnected": "Connexion perdue",
+    "unable": "Impossible de se connecter au serveur",
+    "internal": "Erreur système interne",
+    "loading": "Préparation de la partie...",
+    "discord": "En ligne",
+    "generate": "Chargement du terrain...",
+    "discord2": "Rencontre une erreur",
+    "timeout": "Le délai d'attente a été dépassé",
+    "aborted": "L'autre joueur à quitté la partie",
+    "car0": "Votre voiture",
+    "car1": "Sa voiture"
+  },
+  "stats": {
+    "menu": "Statistiques",
+    "title": "Statistiques sur le jeu",
+    "items": {
+      "times.single": "Temps passé en mode solo",
+      "times.local": "Temps passé en mode local",
+      "times.online": "Temps passé en mode en ligne",
+      "results.wins": "Nombre de parties gagnées",
+      "results.loses": "Nombre de parties perdues",
+      "ingame.walls": "Nombre total de collisions",
+      "ingame.laps": "Nombre total de tours",
+      "ingame.turns": "Nombre total de virages"
+    }
+  },
+  "polymer": {
+    "gpu": "État de support GPU",
+    "gpuShift": "Appuyez sur Shift pour voir plus",
+    "logging": "Nous vous connectons ; vérifiez la fenêtre de votre navigateur Web et autorisez la connexion.",
+    "loginClose": "Vous pouvez maintenant fermer cet onglet ou cette fenêtre et retourner à Kartik.",
+    "gatheringLogin": "Nous vérifions votre compte ; cela peut prendre un moment.",
+    "loginIntro": "Appuyez sur L pour vous connecter",
+    "logout": "L pour vous déconnecter",
+    "ktoLevel": "Niveau",
+    "ktoMaxLevel": "Dieu",
+    "error": [
+      "Impossible de communiquer avec les serveurs",
+      "Vous ne pourrez pas utiliser Kartik Online tant que nous n'arrivons pas à communiquer avec les serveurs.",
+      "Connectez-vous à Internet"
+    ],
+    "updateError": [
+      "Impossible de rechercher les mises à jour",
+      "Nous ne pouvons pas rechercher les mises à jour en ce moment, réessayez plus tard."
+    ],
+    "levelup": [
+      "Niveau supérieur !",
+      "Vous avez atteint le niveau",
+      "et vous gagnez du pouvoir ! Continuez et essayez d'atteindre le niveau maximal."
+    ],
+    "finished": [
+      "Vous avez battu le jeu !",
+      "Fini Kartik ?! Oui. Vous avez atteint le niveau Dieu!"
+    ],
+    "token": [
+      "Déconnecté depuis autre part",
+      "Vous avez été déconnecté de Kartik Online parce que votre session a été terminée depuis autre part."
+    ]
+  }
+}

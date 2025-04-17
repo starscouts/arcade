@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>native = false;global = window;info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};currentNest = {};</script><script src="../webinit/jquery.js"></script><script>window.kresources = kresources = JSON.parse($.ajax("/kartik/resources.json", { async: false }).responseText);</script>
+    <script src="../lang/loader.js"></script>
+    <script src="../scenario/client.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common/fonts.css">
+    <link rel="stylesheet" href="common/blur.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Kartik</title>
+    <script src="../crash/client.js"></script>
+    <script src="./script/global_compatlayer.js"></script><script src="../typescript/mainloader.js"></script>
+    <script src="../sfx/sfx.js"></script>
+</head>
+<body>
+    <script>info("MainWindow", "Rendering initial frame...");
+    
+    if (native) {
+        scale=require('@electron/remote').getCurrentWindow().scale;document.body.style.zoom=scale;
+    }
+    
+    </script>
+    <div id="box" style="display: none;background:#222;position:fixed;top:0;left:0;right:0;bottom:0;">
+        <div style="color:black;width: 100%;height: 192px;background: #00538e;background-image: url('./background.jpg');background-size: cover;position: fixed;z-index: -1;"><h2 style="margin: 0;padding: 50px;font-size: 48px;color: black;"><script>document.write(lang.settings.title)</script></h2></div>
+
+        <div class="services services-settings">
+            <div class="items">
+                <ul>
+                    <li class="selected"><span class="item" style="width: calc(100% - 150px);"><a href="#" id="back"><img class="item-icon" src="../icons/back.svg"> <script>document.write(lang.settings.back)</script></a></span></li>
+                    <li><span class="item" style="width: calc(100% - 150px);"><a href="#" id="lang"><img class="item-icon" src="../icons/language.svg"> <script>document.write(lang.settings.lang)</script> [Language]<span class="setting-status"><span id="setting-lang">Français</span></span></a></span></li>
+                    <li><span class="item" style="width: calc(100% - 150px);"><a href="#" id="credits"><img class="item-icon" src="../icons/credits.svg"> <script>document.write(lang.menu.titles[3])</script></a></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <span id="notice" style="color:black;">
+            <script>
+                document.write(lang.settings.notice);
+            </script>
+        </span>
+    </div>
+
+    <script src="./script/settings_load.js"></script>
+<script>info("OptnWindow", "Menu opened");</script>
+</body>
+<script src="./script/settings_global.js"></script>
+<script src="./script/client_fullscreen.js"></script>
+</html>

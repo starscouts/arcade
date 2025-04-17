@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#000000;margin:0;height:100%;width:100%;">
+<head>
+    <script>native = false;global = window;info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};currentNest = {};</script><script src="../webinit/jquery.js"></script><script>window.kresources = kresources = JSON.parse($.ajax("/kartik/resources.json", { async: false }).responseText);</script>
+    <script src="../lang/loader.js"></script>
+    <script src="../scenario/client.js"></script>
+    <meta charset="UTF-8">
+    <title>Kartik</title>
+    <link rel="stylesheet" href="common/fonts.css">
+    <link rel="stylesheet" href="common/blur.css">
+    <script src="../crash/client.js"></script>
+    <script src="./script/global_compatlayer.js"></script><script src="../typescript/mainloader.js"></script>
+    <script src="../sfx/sfx.js"></script>
+
+    <script src="./script/win_play.js"></script>
+</head>
+<body style="background:#000000;margin:0;height:100%;width:100%;color:white;">
+    <script>info("MainWindow", "Rendering initial frame...");
+    
+    if (native) {
+        scale=require('@electron/remote').getCurrentWindow().scale;document.body.style.zoom=scale;
+    }
+    
+    </script>
+    <div id="box" style="display: none;background:#222;position:fixed;top:0;left:0;right:0;bottom:0;">
+        <div style="position:fixed;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;">
+            <div style="text-align: center;">
+                <h2><script>let homedir = require('@electron/remote').getCurrentWindow().homedir;document.write(lang.stats.title);stats=currentNest.stats</script></h2>
+
+                <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['times.single'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(new Date(stats.times.single * 1000).toISOString().substr(11, 8))</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['times.local'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(new Date(stats.times.local * 1000).toISOString().substr(11, 8))</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['times.online'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(new Date(stats.times.online * 1000).toISOString().substr(11, 8))</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['results.wins'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(stats.results.wins)</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['results.loses'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(stats.results.loses)</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['ingame.walls'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(stats.ingame.walls)</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['ingame.laps'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(stats.ingame.laps)</script></div>
+
+                    <div style="padding:10px;text-align:left;"><b><script>document.write(lang.stats.items['ingame.turns'])</script></b></div>
+                    <div style="padding:10px;text-align:right;"><script>document.write(stats.ingame.turns)</script></div>
+                </div>
+
+                <p><script>document.write(lang.win.quit[0])</script></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/win_music.js"></script>
+
+    <script src="./script/win_global.js"></script>
+    <script src="./script/client_fullscreen.js"></script>
+</body>
+</html>

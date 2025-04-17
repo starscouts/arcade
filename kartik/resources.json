@@ -1,0 +1,121 @@
+{
+  "music": {
+    "credits": {
+      "file": "/kartik/music/credits.mp3",
+      "original": true
+    },
+    "game1": {
+      "file": "/kartik/music/game1.mp3",
+      "original": true
+    },
+    "game2": {
+      "file": "/kartik/music/game2.mp3",
+      "original": true
+    },
+    "game3": {
+      "file": "/kartik/music/game3.mp3",
+      "original": true
+    },
+    "game4": {
+      "file": "/kartik/music/game4.mp3",
+      "original": true
+    },
+    "game5": {
+      "file": "/kartik/music/game5.mp3",
+      "original": true
+    },
+    "game6": {
+      "file": "/kartik/music/game6.mp3",
+      "original": true
+    },
+    "game7": {
+      "file": "/kartik/music/game7.mp3",
+      "original": true
+    },
+    "game8": {
+      "file": "/kartik/music/game8.mp3",
+      "original": true
+    },
+    "game9": {
+      "file": "/kartik/music/game9.mp3",
+      "original": true
+    },
+    "prepare": {
+      "file": "/kartik/music/prepare.mp3",
+      "original": true
+    },
+    "start": {
+      "file": "/kartik/music/start.mp3",
+      "original": true
+    },
+    "title": {
+      "file": "/kartik/music/title.mp3",
+      "original": true
+    },
+    "win": {
+      "file": "/kartik/music/win.mp3",
+      "original": true
+    }
+  },
+  "sfx": {
+    "click": "/kartik/sfx/click.mp3",
+    "crash": "/kartik/sfx/crash.mp3",
+    "intro": "/kartik/sfx/intro.mp3",
+    "last": "/kartik/sfx/last.mp3",
+    "menu": "/kartik/sfx/menu.mp3",
+    "newintro": "/kartik/sfx/newintro.mp3",
+    "notification": "/kartik/sfx/notification.mp3",
+    "pass": "/kartik/sfx/pass.mp3",
+    "pause": "/kartik/sfx/pause.mp3",
+    "win": "/kartik/sfx/win.mp3"
+  },
+  "races": {
+    "main": "./race/circuits/main.html",
+    "snowy": "./race/circuits/snowy.html",
+    "water": "./race/circuits/water.html"
+  },
+  "cars": {
+    "alpspin_by_redman_blue": "/kartik/race/models/alpspin_by_redman_blue.png",
+    "alpspin_by_redman_green": "/kartik/race/models/alpspin_by_redman_green.png",
+    "alpspin_by_redman_orange": "/kartik/race/models/alpspin_by_redman_orange.png",
+    "alpspin_by_redman_red": "/kartik/race/models/alpspin_by_redman_red.png",
+    "alpspin_by_redman_turquoise": "/kartik/race/models/alpspin_by_redman_turquoise.png",
+    "alpspin_by_redman_violet": "/kartik/race/models/alpspin_by_redman_violet.png",
+    "alpspin_by_redman_yellow": "/kartik/race/models/alpspin_by_redman_yellow.png",
+    "argenquirie_by_redman": "/kartik/race/models/argenquirie_by_redman.png",
+    "argenquiriedx_by_redman": "/kartik/race/models/argenquiriedx_by_redman.png",
+    "base_by_minteck_blue": "/kartik/race/models/base_by_minteck_blue.png",
+    "base_by_minteck_green": "/kartik/race/models/base_by_minteck_green.png",
+    "base_by_minteck_orange": "/kartik/race/models/base_by_minteck_orange.png",
+    "base_by_minteck_red": "/kartik/race/models/base_by_minteck_red.png",
+    "base_by_minteck_turquoise": "/kartik/race/models/base_by_minteck_turquoise.png",
+    "base_by_minteck_violet": "/kartik/race/models/base_by_minteck_violet.png",
+    "base_by_minteck_yellow": "/kartik/race/models/base_by_minteck_yellow.png",
+    "pride_month_2021": "/kartik/race/models/pride_month_2021.png",
+    "spagetti11_by_redman": "/kartik/race/models/spagetti11_by_redman.png",
+    "spagetti11_by_redman_blue": "/kartik/race/models/spagetti11_by_redman_blue.png",
+    "spagetti11_by_redman_green": "/kartik/race/models/spagetti11_by_redman_green.png",
+    "spagetti11_by_redman_orange": "/kartik/race/models/spagetti11_by_redman_orange.png",
+    "spagetti11_by_redman_turquoise": "/kartik/race/models/spagetti11_by_redman_turquoise.png",
+    "spagetti11_by_redman_violet": "/kartik/race/models/spagetti11_by_redman_violet.png",
+    "spagetti11_by_redman_yellow": "/kartik/race/models/spagetti11_by_redman_yellow.png"
+  },
+  "scenario": {
+    "voice": {
+      "de": "/kartik/scenario/voice/de",
+      "en": "/kartik/scenario/voice/en",
+      "es": "/kartik/scenario/voice/es",
+      "fr": "/kartik/scenario/voice/fr",
+      "jp": "/kartik/scenario/voice/jp",
+      "nl": "/kartik/scenario/voice/nl",
+      "ru": "/kartik/scenario/voice/ru",
+      "zh": "/kartik/scenario/voice/zh"
+    },
+    "averi": {
+      "angry": "/kartik/scenario/character/angry.png",
+      "happy": "/kartik/scenario/character/happy.png",
+      "neutral": "/kartik/scenario/character/neutral.png",
+      "sad": "/kartik/scenario/character/sad.png"
+    }
+  }
+}

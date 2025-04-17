@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>native = false;global = window;info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};currentNest = {};</script><script src="../webinit/jquery.js"></script><script>window.kresources = kresources = JSON.parse($.ajax("/kartik/resources.json", { async: false }).responseText);</script>
+    <script src="../lang/loader.js"></script>
+    <script src="../scenario/client.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common/fonts.css">
+    <link rel="stylesheet" href="common/blur.css">
+    <link rel="stylesheet" href="game.css">
+    <title>Kartik</title>
+    <script src="../crash/client.js"></script>
+    <script src="./script/global_compatlayer.js"></script><script src="../typescript/mainloader.js"></script>
+    <script src="../sfx/sfx.js"></script>
+    <script>
+        global.online = false;
+        global.paused = false;
+        global.keysEnabled = true;
+        global.started = false;
+        global.startHooks = [];
+    </script>
+    <script>
+        _sfx = false;
+
+
+    </script>
+</head>
+<body>
+    <script>info("MainWindow", "Rendering initial frame...");
+    
+    if (native) {
+        scale=require('@electron/remote').getCurrentWindow().scale;document.body.style.zoom=scale;
+    }
+    
+    </script>
+    <div id="bg" style="display: none;background:black;position:fixed;top:0;left:0;right:0;bottom:0;z-index:1;">
+    <div id="box" style="display: none;background-color: #545454;position:fixed;top:0;left:0;right:0;bottom:0;z-index:2;">
+
+        <div id="online-login" style="display: none;position: fixed;top: 0;left: 0;bottom: 0;right: 0;background: transparent;z-index: 99999;padding: 50px;color: white;text-align: center;background:#111;">
+            <p id="serverinfo" style="display: grid; grid-template-columns: 32px 1fr; position: fixed;bottom: 20px;margin: 0;padding: 0;left: 20px;"><img src="../logo/logo.png" id="servericon" style="width: 32px; display: flex; align-content: center; justify-items: center;"> <span id="serverdata" style="text-align:left;margin-left:10px;display:inline-block;"><span id="servername" style="vertical-align: middle;">...</span><br><span id="serveraddr" style="opacity:.75;">0.0.0.0:0000</span></span></p>
+            <p id="connecting"><script id="pf1">document.write(lang.online.connecting);document.getElementById('pf1').outerHTML='';</script></p>
+            <p id="loading" style="display:none;"><script id="pf2">document.write(lang.online.loading);document.getElementById('pf2').outerHTML='';</script></p>
+            <div id="intro" style="display:none;">
+                <h2><script>document.write(lang.online.intro.create);</script></h2>
+                <p><script>document.write(lang.online.intro.pcreate);</script></p>
+                <span id="yourid" style="font-family:monospace;font-size:48px;">########</span>
+
+                <hr style="border-bottom: 0;">
+
+                <h2><script>document.write(lang.online.intro.join);</script></h2>
+                <p><script>document.write(lang.online.intro.pjoin);</script></p>
+                <input onchange="checkOnlineLogin();" onkeyup="checkOnlineLogin();" onkeydown="checkOnlineLogin();" id="theirid" style="font-family:monospace;font-size:48px;border:1px solid black;width: 5em;padding: 0;margin: 0;background: transparent;color: white;outline: none;" maxlength="8" placeholder="--------" length="8" spellcheck="false">
+                <script>document.getElementById('theirid').focus(); global.focuser = setInterval(() => { document.getElementById('theirid').focus(); }, 1);</script>
+            </div>
+        </div>
+
+        <div id="ping-chart" style="position: fixed;top: 4px;left: 4px;z-index: 9999999998;display: flex;width: 70px;height: 50px;justify-content: flex-end;align-items: flex-end;"></div>
+        <div id="ping-outer" style="position: fixed;top: 4px;left: 4px;z-index: 9999999999;display: flex;width: 70px;height: 50px;align-items: center;justify-content: center;">
+            <div id="ping" style="font-family:monospace;color: white;text-shadow: 1px 1px 5px black;font-size: 8px;">- ms</div>
+        </div>
+
+        <script>
+            if (!window.online) {
+                document.getElementById('ping-chart').style.display = "none";
+                document.getElementById('ping-outer').style.display = "none";
+            }
+        </script>
+
+        <div id="laps">
+            <span id="laps-inner-car0"><span id="laps-car0">0</span><hr class="laps-inner-sep">5</span>
+            <span id="laps-inner-car1"><span id="laps-car1">0</span><hr class="laps-inner-sep">5</span>
+        </div>
+        <div id="credits"><div id="credits-inner">
+            <div id="credits-race" style="
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+"><div id="race">
+                <img src="common/race.svg" style="vertical-align: middle;">
+                <div class="cbox"><span><span class="big" id="race-title">...</span><br><script>document.write(lang.game.credits.by);</script> <span id="race-author">...</span></span></div>
+            </div>
+            </div><div id="credits-cars" style="
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16px;
+    text-align: center;
+"><div id="cars-p1" style="
+    display: grid;
+    grid-template-columns: 48px 1fr;
+">
+            <img src="../icons/gamepad.svg" style="vertical-align: middle;filter: brightness(0) invert(1) !important;width: 24px;">
+            <div class="cbox"><span><span class="big" id="cars-n1">1</span><br><img src="/" style="
+    width: 72px;
+    filter: none !important;
+" id="cars-p1-inner"></span></div>
+        </div><div style="
+    display: grid;
+    grid-template-columns: 48px 1fr;
+">
+            <img src="../icons/gamepad.svg" style="vertical-align: middle;filter: brightness(0) invert(1) !important;width: 24px;">
+            <div class="cbox"><span><span class="big" id="cars-n2">2</span><br><img src="/" style="
+    width: 72px;
+    filter: none !important;
+" id="cars-p2-inner"></span></div>
+        </div></div></div></div>
+        <div id="circuit" style="background-size: cover;background-position: center center;position: fixed;inset: 0;z-index: 2;background-color: rgb(255, 255, 255);width: 720px;height: 540px;">
+            ...
+            </div>
+
+        <script src="./script/game_select.js"></script>
+    </div>
+
+    <div id="paused" style="z-index:5;display:none;">
+        <div>
+            <h2 style="text-align:center;"><!--<script>document.write(lang.game.gpause.title);</script>--><img alt="full-logo" src="../logo/full.png" style="height: 96px;"></h2>
+            <div class="services">
+                <div class="items">
+                    <ul style="padding:0;">
+                        <li class="selected"><a href="#" id="continue"><script>document.write(lang.game.gpause.continueg);</script></a></li>
+                        <li><a href="#" id="hitboxes"><script>document.write(lang.game.gpause.showhb);</script></a></li>
+                        <li><a href="#" id="quit"><script>document.write(lang.game.gpause.quit);</script></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../race/pause.js"></script>
+
+    <div id="debug" style="z-index:99999999999999999;position: fixed;display:none;font-family: 'Source Code Pro', 'JetBrains Mono', 'Ubuntu Mono', 'Consolas', 'Lucida Console', 'Courier New', monospace;">
+        <span id="debug-left" style="position:fixed;left:2px;top:2px;text-align:left;color:white;font-size:10px;">
+            Kartik
+        </span>
+        <span id="debug-right" style="position:fixed;right:2px;top:2px;text-align:right;color:white;font-size:10px;">
+            Kartik
+        </span>
+    </div>
+
+    <script src="./script/game_music.js"></script>
+    <script>info("GameWindow", "Game started");</script>
+
+    </div>
+</body>
+<script src="../race/cars/car0.js"></script>
+<script src="../race/cars/car1.js"></script>
+<script src="../race/cars/car1ai.js"></script>
+<script src="../race/cars/keymap.js"></script>
+
+<script src="./script/game_global.js"></script>
+<script src="./script/game_debug.js"></script>
+<script src="./script/game_online.js"></script>
+
+<script src="./script/client_fullscreen.js"></script>
+
+</html>

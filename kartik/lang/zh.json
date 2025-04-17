@@ -1,0 +1,237 @@
+{
+    "crash": {
+        "title": "Kartik \u5d29\u6e83\u62a5\u544a\u5668",
+        "head": "Kartik \u5df2\u505c\u6b62\u5de5\u4f5c",
+        "intro": "Kartik \u9047\u5230\u95ee\u9898\uff0c\u610f\u5916\u505c\u6b62\u3002",
+        "report": [
+            "\u6b64\u5916\uff0c\u5728\u201c",
+            "\u4ee5\u4fbf\u60a8\u53ef\u4ee5\u5728\u53ef\u4ee5\u8bbf\u95ee Internet \u65f6\u5c06\u5176\u53d1\u9001\u7ed9\u5f00\u53d1\u4eba\u5458\u3002"
+        ],
+        "close": "\u5173\u95ed",
+        "reset": "\u91cd\u7f6e Kartik \u5e76\u5173\u95ed"
+    },
+    "updates": {
+        "ok": "\u6700\u65b0",
+        "available": "\u53ef\u7528\u7684\u6e38\u620f\u66f4\u65b0",
+        "git": "\u8fd0\u884c\u4e3b\u5e72\u7248\u672c",
+        "error": "\u65e0\u6cd5\u68c0\u67e5\u66f4\u65b0",
+        "wait": "\u67e5\u8be2\u66f4\u65b0 ...",
+        "warn": [
+            "\u6709\u66f4\u65b0\u53ef\u7528",
+            "\u4ece\u5b98\u65b9\u7f51\u7ad9\u4e0b\u8f7d\u65b0\u7248 Kartik \u4ee5\u53d7\u76ca\u4e8e\u6700\u65b0\u529f\u80fd\u548c\u9519\u8bef\u4fee\u590d\u3002"
+        ]
+    },
+    "scenario": {
+        "intro": [
+            "\u563f\uff0c\u55e8\uff0c\u5feb\u8dd1\u600e\u4e48\u6837\uff1f",
+            "\u554a\uff0c\u4f60\u53c8\u6765\u4e86\uff01",
+            "\u6211\u4eec\u6765\u4e00\u573a\u5c0f\u6bd4\u8d5b\u600e\u4e48\u6837\uff1f",
+            "\u6211\u4eec\u53bb\u6563\u6563\u6b65\u5427\uff1f"
+        ],
+        "ahead1": [
+            "\u4e0d\u597d\u4e86 \uff01",
+            "\u53ef\u6076\uff0c\u8fd9\u4e0d\u53ef\u80fd\uff01",
+            "\u4f46\u6211\u4e0d\u4f1a\u53bb\u90a3\u91cc......",
+            "\u8fd8\u6709\u5988\u7684...",
+            "\u4e3a\u4ec0\u4e48\u4f60 \uff1f"
+        ],
+        "ahead2": [
+            "\u563b\u563b\u563b",
+            "\u8fd9\u4e2a\u662f\u7ed9\u6211\u7684\uff01",
+            "\u6211\u4f1a\u7684\uff01",
+            "\u8fd9\u662f\u7ed9\u6211\u7684\uff01",
+            "\u8fd9\u662f\u6211\u7684 \uff01"
+        ],
+        "won1": [
+            "\u597d\u6e38\u620f \uff01",
+            "\u5bf9\u6211\u6765\u8bf4\u592a\u7cdf\u7cd5\u4e86...",
+            "\u6211\u672c\u6765\u53ef\u4ee5\u5e0c\u671b...",
+            "\u4f46\u662f\uff0c\u4e0d\u662f\u5f88\u597d\u770b\uff01",
+            "\u505a\u5f97\u597d \uff01"
+        ],
+        "won2": [
+            "\u6211\u544a\u8bc9\u4f60\u4e86 \uff01",
+            "\u597d\u50cf\u6211\u6ca1\u6709\u8b66\u544a\u8fc7\u4f60\uff01",
+            "\u6211\u8d62\u4e86 \uff01",
+            "\u592a\u597d\u4e86\uff0c\u6211\u8d62\u4e86\uff01",
+            "\u8fd8\u6709\u4e00\u4e2a\u7ed9\u6211\uff01"
+        ],
+        "wall1": [
+            "\u554a\u554a\uff01",
+            "\u90a3\u4e48\uff0c\u6211\u4eec\u662f\u4e0d\u662f\u8d70\u5bf9\u4e86\uff1f",
+            "\u54ce\u54df",
+            "\u4e00\u5b9a\u5f88\u75db...",
+            "\u65af\u666e\u62c9\u592b\uff0c\u6ca1\u6709\u969c\u788d\uff01"
+        ],
+        "wall2": [
+            "\u62c9\u5c4e",
+            "\u8239\u5c3e",
+            "\u4e0d\u53ef\u80fd",
+            "\u8386\u7530"
+        ],
+        "start": [
+            "\u6211\u4f1a\u73a9\u5f97\u5f88\u5f00\u5fc3\uff01",
+            "\u4f60\u4f1a\u770b\u5230\uff0c\u6211\u4f1a\u8ba9\u4f60\u6210\u4e3a\u90a3\u4e9b\u79cd\u65cf\u4e4b\u4e00\uff01",
+            "\u6709\u4ec0\u4e48\u6d88\u606f\u544a\u8bc9\u6211",
+            "\u6211\u4eec\u8d70\u5427\uff01",
+            "\u5f00\u59cb\u4e86 \uff01",
+            "\u545c\uff0c\u524d\u8fdb\uff01"
+        ]
+    },
+    "discord": {
+        "credits": [
+            "\u7b49\u5f85",
+            "\u5728\u5b66\u5206\u4e2d"
+        ],
+        "game": [
+            "\u8d4c\u6ce8",
+            "\u5355\u4eba\u6a21\u5f0f",
+            "\u5bf9\u6218\u6a21\u5f0f",
+            "\u4f11\u606f\u65f6"
+        ],
+        "intro": [
+            "\u7b49\u5f85",
+            "\u5173\u4e8e\u4ecb\u7ecd"
+        ],
+        "settings": [
+            "\u7b49\u5f85",
+            "\u5728\u8bbe\u7f6e\u4e2d"
+        ],
+        "win": [
+            "\u521a\u8d62",
+            "\u521a\u521a\u5931\u53bb\u4e86"
+        ]
+    },
+    "intro": [
+        "\u6309\u56de\u8f66\u5f00\u59cb",
+        "\u6309A\u5f00\u59cb"
+    ],
+    "game": {
+        "credits": {
+            "by": "\u7ecf\u8fc7"
+        },
+        "gpause": {
+            "title": "\u6e38\u620f\u6682\u505c",
+            "continueg": "\u63a5\u7740\u8bf4",
+            "showhb": "\u663e\u793a\u547d\u4e2d\u6846",
+            "hidehb": "\u9690\u85cf\u78b0\u649e\u7bb1",
+            "quit": "\u79bb\u5f00"
+        }
+    },
+    "menu": {
+        "titles": [
+            "\u72ec\u594f",
+            "\u76f8\u5bf9",
+            "\u9009\u9879",
+            "\u5b66\u5206",
+            "\u79bb\u5f00"
+        ],
+        "descriptions": [
+            "\u5355\u72ec\u548c\u79bb\u7ebf\u5bf9\u6297\u673a\u5668\u4eba",
+            "\u5728\u540c\u4e00\u5c4f\u5e55\u4e0a\u64ad\u653e\u4e24\u4e2a",
+            "\u66f4\u6539\u7f29\u653e\u548c\u8bbe\u7f6e",
+            "\u663e\u793a\u6e38\u620f\u4f5c\u8005\u5217\u8868",
+            "\u5173\u95ed\u6e38\u620f\u5e76\u8fd4\u56de"
+        ],
+        "distribute": "\u4e0d\u8981\u6253\u6270"
+    },
+    "settings": {
+        "title": "\u9009\u9879",
+        "back": "\u8fd4\u56de",
+        "size": "\u63a5\u53e3\u5c3a\u5bf8",
+        "music": "\u6fc0\u6d3b\u97f3\u4e50",
+        "lang": "\u820c\u5934",
+        "voice": "\u6fc0\u6d3b\u8bed\u97f3",
+        "yes": "\u662f\u7684",
+        "no": "\u4e0d",
+        "notice": "\u8bbe\u7f6e\u5c06\u4ec5\u5728\u91cd\u65b0\u542f\u52a8 Kartik \u540e\u5e94\u7528"
+    },
+    "win": {
+        "solo": {
+            "win": "\u4f60\u8d62\u4e86\uff01",
+            "lose": "\u4f60\u8f93\u4e86 \uff01"
+        },
+        "versus": "0\u53f7\u73a9\u5bb6\u8d62\u4e86\uff01",
+        "quit": [
+            "\u6309 Esc \u9000\u51fa",
+            "\u6309B\u9000\u51fa"
+        ]
+    },
+    "online": {
+        "menu": {
+            "local": "\u5f53\u5730\u7684",
+            "online": "\u6392\u961f",
+            "dlocal": "\u548c\u670b\u53cb\u5728\u540c\u4e00\u53f0\u673a\u5668\u4e0a\u73a9",
+            "donline": "\u5728\u4e0d\u540c\u7684\u673a\u5668\u4e0a\u4e0e\u670b\u53cb\u4e00\u8d77\u73a9"
+        },
+        "error": {
+            "connection": "\u901a\u4fe1\u6545\u969c",
+            "disconnect": "\u65ad\u5f00\u8fde\u63a5"
+        },
+        "connecting": "\u8fde\u63a5\u5230\u670d\u52a1\u5668...",
+        "intro": {
+            "create": "\u521b\u5efa\u6e38\u620f",
+            "pcreate": "\u5c06\u6b64\u4ee3\u7801\u63d0\u4f9b\u7ed9\u60a8\u7684\u961f\u53cb\u4ee5\u767b\u5f55\u60a8\u7684\u6e38\u620f\uff1a",
+            "join": "\u52a0\u5165\u6e38\u620f",
+            "pjoin": "\u8f93\u5165\u60a8\u961f\u53cb\u7684\u4ee3\u7801\u4ee5\u52a0\u5165\u4ed6\u4eec\u7684\u6e38\u620f\uff1a"
+        },
+        "disconnected": "\u8fde\u63a5\u4e22\u5931",
+        "unable": "\u65e0\u6cd5\u8fde\u63a5\u5230\u670d\u52a1\u5668",
+        "internal": "\u5185\u90e8\u7cfb\u7edf\u9519\u8bef",
+        "loading": "\u51c6\u5907\u6bd4\u8d5b...",
+        "discord": "\u6392\u961f",
+        "generate": "\u52a0\u8f7d\u571f\u5730...",
+        "discord2": "\u9047\u5230\u9519\u8bef",
+        "timeout": "\u5df2\u8d85\u8fc7\u8d85\u65f6",
+        "aborted": "\u5176\u4ed6\u73a9\u5bb6\u5df2\u79bb\u5f00\u6e38\u620f",
+        "car0": "\u4f60\u7684\u8f66",
+        "car1": "\u4ed6\u7684\u8f66"
+    },
+    "stats": {
+        "menu": "\u7edf\u8ba1\u6570\u636e",
+        "title": "\u6bd4\u8d5b\u7edf\u8ba1",
+        "items": {
+            "times.single": "\u5728\u5355\u4eba\u6a21\u5f0f\u4e2d\u82b1\u8d39\u7684\u65f6\u95f4",
+            "times.local": "\u5728\u672c\u5730\u6a21\u5f0f\u4e0b\u82b1\u8d39\u7684\u65f6\u95f4",
+            "times.online": "\u5728\u7ebf\u6a21\u5f0f\u82b1\u8d39\u7684\u65f6\u95f4",
+            "results.wins": "\u80dc\u573a\u6570",
+            "results.loses": "\u8f93\u7403\u6570",
+            "ingame.walls": "\u78b0\u649e\u603b\u6570",
+            "ingame.laps": "\u603b\u5708\u6570",
+            "ingame.turns": "\u603b\u531d\u6570"
+        }
+    },
+    "polymer": {
+        "gpu": "GPU \u652f\u6301\u72b6\u6001",
+        "gpuShift": "\u6309 Shift \u67e5\u770b\u66f4\u591a",
+        "logging": "\u6211\u4eec\u4e0e\u60a8\u8054\u7cfb\uff1b",
+        "loginClose": "\u60a8\u73b0\u5728\u53ef\u4ee5\u5173\u95ed\u6b64\u9009\u9879\u5361\u6216\u7a97\u53e3\u5e76\u8fd4\u56de Kartik\u3002",
+        "gatheringLogin": "\u6211\u4eec\u9a8c\u8bc1\u60a8\u7684\u5e10\u6237\uff1b",
+        "loginIntro": "\u6309L\u8fde\u63a5",
+        "logout": "L \u9000\u51fa",
+        "ktoLevel": "\u7b49\u7ea7",
+        "ktoMaxLevel": "\u4e0a\u5e1d",
+        "error": [
+            "\u65e0\u6cd5\u4e0e\u670d\u52a1\u5668\u901a\u4fe1",
+            "\u5728\u6211\u4eec\u80fd\u591f\u4e0e\u670d\u52a1\u5668\u901a\u4fe1\u4e4b\u524d\uff0c\u60a8\u5c06\u65e0\u6cd5\u4f7f\u7528 Kartik Online\u3002",
+            "\u8fde\u63a5\u5230\u4e92\u8054\u7f51"
+        ],
+        "updateError": [
+            "\u65e0\u6cd5\u68c0\u67e5\u66f4\u65b0",
+            "\u6211\u4eec\u76ee\u524d\u65e0\u6cd5\u68c0\u67e5\u66f4\u65b0\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5\u3002"
+        ],
+        "levelup": [
+            "\u66f4\u9ad8\u5c42\u6b21 \uff01",
+            "\u4f60\u5df2\u7ecf\u8fbe\u5230\u4e86\u6c34\u5e73",
+            "\u4f60\u83b7\u5f97\u4e86\u529b\u91cf\uff01"
+        ],
+        "finished": [
+            "\u4f60\u8d62\u4e86\u6bd4\u8d5b\uff01",
+            "\u5b8c\u6210\u5361\u8482\u514b\uff1f\uff01"
+        ],
+        "token": [
+            "\u4e0e\u522b\u5904\u65ad\u5f00\u8fde\u63a5",
+            "\u60a8\u5df2\u4ece Kartik Online \u6ce8\u9500\uff0c\u56e0\u4e3a\u60a8\u7684\u4f1a\u8bdd\u5df2\u5728\u522b\u5904\u7ec8\u6b62\u3002"
+        ]
+    }
+}

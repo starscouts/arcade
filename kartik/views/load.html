@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kartik</title>
+    <style>
+
+        * {
+            -webkit-app-region: drag !important;
+        }
+
+        @font-face {
+            font-family: "Milliard SB";
+            src: url("./common/load-version.otf");
+            font-weight: normal;
+        }
+        
+        @font-face {
+            font-family: "Milliard";
+            src: url("./common/load-channel.otf");
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: "HomepageBaukasten-Bold";
+            src: url("./common/load-new.ttf");
+        }
+
+    </style>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "F1" || e.key === "F10" || e.key === "F11") { // F11/F1/F10
+                e.preventDefault();
+                return false;
+            }
+        })
+    </script>
+</head>
+<body style="overflow:hidden;margin:0;padding:0;background-color:#4b4e50;">
+    <script>
+        document.write(require('fs').readFileSync("./views/loader.svg").toString().replaceAll("%version%", require('../package.json').version.toUpperCase()));
+
+        var ipcRenderer = require('electron').ipcRenderer;
+        ipcRenderer.on('progress', function (event, progress) {
+            document.getElementById("bar").style.width = progress + "%";
+        });
+    </script>
+    <div id="bar-container">
+        <div id="bar" style="position:fixed;bottom:0;left:0;width:0;background:white;z-index:99999;height:4px;"></div>
+    </div>
+</body>
+</html>

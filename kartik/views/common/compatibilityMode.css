@@ -1,0 +1,8 @@
+*:not(#gpuinfo-outer):not(#gpuinfo-inner) {
+    backdrop-filter: none !important;
+    opacity: 1 !important;
+}
+
+.rain {
+    display: none !important;
+}

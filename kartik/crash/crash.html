@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../lang/loader.js"></script>
+    <meta charset="UTF-8">
+    <script>document.title = lang.crash.title;</script>
+    <link rel="stylesheet" href="../views/common/fonts.css">
+    <style>
+
+        * {
+            font-family: -apple-system, sans-serif;
+            cursor: default !important;
+            font-family: "Comfortaa", -apple-system, sans-serif !important;
+        }
+
+        button {
+            border: 1px solid #00b763;
+            padding: 10px 20px;
+            border-radius: 999px;
+            background: #fff;
+            color: black;
+            outline: none;
+        }
+
+        button:hover {
+            color: white;
+            border: 1px solid #007b42;
+            background: #00b763;
+        }
+
+        button:active {
+            color: white;
+            border: 1px solid #00502b;
+            background: #007b42;
+        }
+
+    </style>
+</head>
+<body style="display:grid;grid-template-columns: 1fr 1fr;height:100%;width:100%;margin:0;overflow:hidden;">
+    <div>
+        <img src="./artwork.jpg" style="height: 100vh;">
+    </div>
+    <div style="padding:8px;">
+        <h2><script>document.write(lang.crash.head);</script></h2>
+        <p><script>document.write(lang.crash.intro);</script></p>
+        <p><script>
+            document.write(lang.crash.report[0]);
+            if (require('os').platform() === "win32") {
+                document.write(require('os').userInfo().homedir + "\\.kartik\\crashes");
+            } else {
+                document.write(require('os').userInfo().homedir + "/.kartik/crashes");
+            }
+            document.write(lang.crash.report[1]);
+        </script></p>
+        <p><button onclick="restart();"><script>document.write(lang.crash.close);</script></button> <button onclick="resetrestart();"><script>document.write(lang.crash.reset);</script></button></p>
+    </div>
+
+    <script>
+        function restart() {
+            window.close();
+            require('@electron/remote').getCurrentWindow().hide();
+            require('@electron/remote').getCurrentWindow().destroy();
+            require('@electron/remote').getCurrentWindow().close();
+        }
+        function resetrestart() {
+            require('fs').rmdirSync(require('os').userInfo().homedir + "/.kartik/config", {recursive:true});
+            window.close();
+            require('@electron/remote').getCurrentWindow().close();
+        }
+    </script>
+</body>
+</html>

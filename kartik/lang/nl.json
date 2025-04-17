@@ -1,0 +1,237 @@
+{
+    "crash": {
+        "title": "Kartik Crash Reporter",
+        "head": "Kartik werkt niet meer",
+        "intro": "Kartik ondervond een probleem en stopte onverwachts. ",
+        "report": [
+            "Bovendien is er een crashrapport gemaakt in \"",
+            "Zodat je het naar de ontwikkelaars kunt sturen als je internettoegang hebt."
+        ],
+        "close": "sluiten",
+        "reset": "Reset Kartik en sluit"
+    },
+    "updates": {
+        "ok": "Bijgewerkt",
+        "available": "Game-updates beschikbaar",
+        "git": "De kofferbakversie uitvoeren",
+        "error": "Kan niet controleren op updates",
+        "wait": "Controleren op updates...",
+        "warn": [
+            "Updates zijn beschikbaar",
+            "Download de nieuwe versie van Kartik van de offici\u00eble website om te profiteren van de nieuwste functies en bugfixes."
+        ]
+    },
+    "scenario": {
+        "intro": [
+            "H\u00e9, hoi, wat dacht je van een snelle run?",
+            "Aha, daar ben je weer! ",
+            "Zullen we een beetje racen?",
+            "Zullen we gaan wandelen?"
+        ],
+        "ahead1": [
+            "Oh nee !",
+            "Verdomme, dat kan niet!",
+            "Maar ik kom er niet...",
+            "En shit...",
+            "Waarom jij ?"
+        ],
+        "ahead2": [
+            "Hee hee hee",
+            "Deze is voor mij!",
+            "Ik zal het hebben !",
+            "Het is voor mij!",
+            "Het is van mij !"
+        ],
+        "won1": [
+            "Goed spel !",
+            "Jammer voor mij...",
+            "Ik had kunnen hopen...",
+            "Maar, het is niet erg leuk!",
+            "Goed gedaan !"
+        ],
+        "won2": [
+            "Ik zei het je !",
+            "Alsof ik je niet gewaarschuwd had!",
+            "Ik won !",
+            "Super, ik heb hem gewonnen!",
+            "En nog eentje voor mij!"
+        ],
+        "wall1": [
+            "Ach ach!",
+            "Nou, gaan we dan niet goed?",
+            "Ouch",
+            "Het moet pijn doen...",
+            "Splaf, geen obstakel!"
+        ],
+        "wall2": [
+            "Shit",
+            "Poep",
+            "Niet mogelijk",
+            "Zet ik"
+        ],
+        "start": [
+            "Ik zal plezier hebben!",
+            "Je zult zien, ik zal je een van die races maken!",
+            "Vertel me nieuws",
+            "Laten we gaan!",
+            "Daar gaan we !",
+            "Wauw, vooruit!"
+        ]
+    },
+    "discord": {
+        "credits": [
+            "Aan het wachten",
+            "In de aftiteling"
+        ],
+        "game": [
+            "Inzetten",
+            "Solo-modus",
+            "Versus-modus",
+            "op pauze"
+        ],
+        "intro": [
+            "Aan het wachten",
+            "Over de introductie"
+        ],
+        "settings": [
+            "Aan het wachten",
+            "In de instellingen"
+        ],
+        "win": [
+            "Zojuist gewonnen",
+            "Net verloren"
+        ]
+    },
+    "intro": [
+        "Druk op enter om te beginnen",
+        "Druk op A om te beginnen"
+    ],
+    "game": {
+        "credits": {
+            "by": "door"
+        },
+        "gpause": {
+            "title": "Spel gepauzeerd",
+            "continueg": "doorgaan",
+            "showhb": "Toon hitbox",
+            "hidehb": "Hitbox verbergen",
+            "quit": "Verlaten"
+        }
+    },
+    "menu": {
+        "titles": [
+            "Solo",
+            "Versus",
+            "Opties",
+            "Credits",
+            "Verlaten"
+        ],
+        "descriptions": [
+            "Speel alleen en offline tegen een robot",
+            "Speel twee op hetzelfde scherm",
+            "Zoom en instellingen wijzigen",
+            "Toon de lijst met game-auteurs",
+            "Sluit het spel en keer terug naar"
+        ],
+        "distribute": "Niet distribueren"
+    },
+    "settings": {
+        "title": "Opties",
+        "back": "Opbrengst",
+        "size": "Interfacegrootte:",
+        "music": "Muziek activeren",
+        "lang": "Tong",
+        "voice": "Stem activeren",
+        "yes": "Ja",
+        "no": "Neen",
+        "notice": "De instellingen worden pas toegepast nadat Kartik . opnieuw is opgestart"
+    },
+    "win": {
+        "solo": {
+            "win": "Je hebt gewonnen !",
+            "lose": "Je hebt verloren!"
+        },
+        "versus": "Speler 0 heeft gewonnen!",
+        "quit": [
+            "Druk op Esc om af te sluiten",
+            "Druk op B om af te sluiten"
+        ]
+    },
+    "online": {
+        "menu": {
+            "local": "lokaal",
+            "online": "In lijn",
+            "dlocal": "Speel met een vriend op dezelfde machine",
+            "donline": "Speel met een vriend op verschillende machines"
+        },
+        "error": {
+            "connection": "Communicatie fout",
+            "disconnect": "Verbinding verbroken"
+        },
+        "connecting": "Verbinding met de server...",
+        "intro": {
+            "create": "Maak een spel",
+            "pcreate": "Geef deze code aan je teamgenoot om in te loggen op je game:",
+            "join": "Doe mee aan een spel",
+            "pjoin": "Voer de code van je teamgenoot in om deel te nemen aan hun spel:"
+        },
+        "disconnected": "Verbinding verbroken",
+        "unable": "Onmogelijk om verbinding te maken met de server",
+        "internal": "Interne systeemfout",
+        "loading": "Voorbereiden op het spel...",
+        "discord": "In lijn",
+        "generate": "Het land laden...",
+        "discord2": "Er is een fout opgetreden",
+        "timeout": "De time-out is overschreden",
+        "aborted": "De andere speler heeft het spel verlaten",
+        "car0": "Jouw auto",
+        "car1": "Zijn auto"
+    },
+    "stats": {
+        "menu": "Statistieken",
+        "title": "Spelstatistieken",
+        "items": {
+            "times.single": "Tijd doorgebracht in de modus voor \u00e9\u00e9n speler",
+            "times.local": "Tijd doorgebracht in lokale modus",
+            "times.online": "Tijd doorgebracht in online modus",
+            "results.wins": "Aantal gewonnen games",
+            "results.loses": "Aantal verloren games",
+            "ingame.walls": "Totaal aantal botsingen",
+            "ingame.laps": "Totaal aantal ronden",
+            "ingame.turns": "Totaal aantal beurten"
+        }
+    },
+    "polymer": {
+        "gpu": "GPU-ondersteuningsstatus",
+        "gpuShift": "Druk op Shift om meer te zien",
+        "logging": "Wij verbinden u; ",
+        "loginClose": "U kunt dit tabblad of venster nu sluiten en terugkeren naar Kartik.",
+        "gatheringLogin": "Wij verifi\u00ebren uw account; ",
+        "loginIntro": "Druk op L om verbinding te maken",
+        "logout": "L om uit te loggen",
+        "ktoLevel": "Niveau",
+        "ktoMaxLevel": "God",
+        "error": [
+            "Kan niet communiceren met servers",
+            "U kunt Kartik Online pas gebruiken als we met de servers kunnen communiceren.",
+            "Verbinden met het internet"
+        ],
+        "updateError": [
+            "Kan niet controleren op updates",
+            "We kunnen momenteel niet op updates controleren. Probeer het later opnieuw."
+        ],
+        "levelup": [
+            "Hoger level !",
+            "Je hebt het niveau bereikt",
+            "en je krijgt kracht! "
+        ],
+        "finished": [
+            "Je hebt het spel verslagen!",
+            "Afgewerkt Kartik?! "
+        ],
+        "token": [
+            "Losgekoppeld van elders",
+            "U bent uitgelogd bij Kartik Online omdat uw sessie ergens anders is be\u00ebindigd."
+        ]
+    }
+}

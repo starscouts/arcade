@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | Tic-Tac-Toe | Minteck Arcade</title>
+    <link rel="icon" href="/_general/favicon.svg" type="image/svg+xml">
+    <style>
+        body {
+            background: black;
+        }
+        td {
+            border: 1px solid white;
+            width: 25vh;
+            height: 25vh;
+            cursor: pointer;
+            text-align: center;
+            font-family: monospace;
+            font-size: 15vh;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .insight {
+            background: rgba(255, 255, 0, 0.3);
+        }
+        #resetbtn:hover {
+            background: white !important;
+            color: black !important;
+        }
+        #resetbtn:disabled {
+            pointer-events: none;
+            opacity: .5;
+        }
+    </style>
+    <script src="morpion/base.js"></script>
+    <script src="morpion/ml.js"></script>
+    <script src="morpion/model.js"></script>
+    <script src="morpion/auto.js"></script>
+    <script src="morpion/online.js"></script>
+</head>
+<body>
+<iframe src="/_general/navbar.html" style="position: fixed;z-index: 9999999999;top: 0;border: none;left: 0;right: 0;height: 32px;width: 100%;"></iframe>
+    <div style="display:flex;align-items:center;justify-content: center;position:fixed;inset: 0;z-index:5;top:32px;">
+        <div id="loader" style="color: white;text-align: center;">
+            Loading...
+        </div>
+        <table id="game" style="display: none;">
+            <tr>
+                <td id="p1" onclick="player(1);"></td>
+                <td id="p2" onclick="player(2);"></td>
+                <td id="p3" onclick="player(3);"></td>
+            </tr>
+            <tr>
+                <td id="p4" onclick="player(4);"></td>
+                <td id="p5" onclick="player(5);"></td>
+                <td id="p6" onclick="player(6);"></td>
+            </tr>
+            <tr>
+                <td id="p7" onclick="player(7);"></td>
+                <td id="p8" onclick="player(8);"></td>
+                <td id="p9" onclick="player(9);"></td>
+            </tr>
+        </table>
+        <table class="game-template" style="display:none;">
+            <tr>
+                <td id="p1" onclick="player(1);"></td>
+                <td id="p2" onclick="player(2);"></td>
+                <td id="p3" onclick="player(3);"></td>
+            </tr>
+            <tr>
+                <td id="p4" onclick="player(4);"></td>
+                <td id="p5" onclick="player(5);"></td>
+                <td id="p6" onclick="player(6);"></td>
+            </tr>
+            <tr>
+                <td id="p7" onclick="player(7);"></td>
+                <td id="p8" onclick="player(8);"></td>
+                <td id="p9" onclick="player(9);"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="wait" style="position:fixed;inset: 0;z-index:10;cursor:wait;display:none;"></div>
+    <pre id="instructions" style="position:fixed;bottom:0;left:0;color:white;margin:0;">// ML Model Training
+model.addTrainedGame();</pre>
+    <div id="stats" style="position:fixed;top:32px;left:0;color:white;margin:0;font-family:monospace;">
+        <div id="online-credits" style="display:none;">Online mode made with ❤️ for Twi</div>
+        <div id="stats-left">
+            Thought Moves: <span id="stat-thought">0</span><br>Random Moves:&nbsp; <span id="stat-random">0</span><br>Randomness:&nbsp;&nbsp;&nbsp; <span id="stat-randomness">0.00%</span><br>Game State:&nbsp;&nbsp;&nbsp; <span id="stat-state">NONE</span><br>Learned Games: <span id="stat-games"><script>
+        document.getElementById("stat-games").innerText = modelTrainedGames;
+    </script></span><span id="stat-goal">/5000</span> (<span id="stat-modelsize">...</span>)<br>Played Games:&nbsp; <span id="stat-played">-</span></div>
+        </div>
+    <div id="last-games" style="text-align:right;position:fixed;top:32px;right:0;color:white;margin:0;font-family:monospace;">-</div>
+    <div id="online-restart-btn" style="text-align:left;position:fixed;bottom:0;left:0;color:white;margin:0;font-family:monospace;z-index:999999;">
+        <button disabled id="resetbtn" onclick="reset();" style="padding:10px 20px;background:black;color:white;border:1px solid white;border-bottom:none;border-left:none;">Restart Game</button>
+    </div>
+    <div id="auto-stats" style="position:fixed;bottom:0;right:0;color:white;margin:0;font-family:monospace;display:none;">
+        <div id="bars2" style="text-align:right;border-collapse:collapse;">
+            <div id="bar2-container-success" style="width:200px;background:#222;height:32px;margin-left:auto;border:1px solid #aaa;">
+                <div id="bar2-value-success" style="background:cyan;width:0%;height:32px;"></div>
+            </div>
+            <div id="bar2-container-failure" style="width:200px;background:#222;height:32px;margin-left:auto;border:1px solid #aaa;">
+                <div id="bar2-value-failure" style="background:lightgray;width:0%;height:32px;"></div>
+            </div>
+        </div>
+        <br>
+        <div id="bars" style="text-align:right;border-collapse:collapse;">
+            <div id="bar-container-success" style="width:200px;background:#222;height:32px;margin-left:auto;border:1px solid #aaa;">
+                <div id="bar-value-success" style="background:green;width:0%;height:32px;"></div>
+            </div>
+            <div id="bar-container-failure" style="width:200px;background:#222;height:32px;margin-left:auto;border:1px solid #aaa;">
+                <div id="bar-value-failure" style="background:red;width:0%;height:32px;"></div>
+            </div>
+            <div id="bar-container-none" style="width:200px;background:#222;height:32px;margin-left:auto;border:1px solid #aaa;">
+                <div id="bar-value-none" style="background:orange;width:0%;height:32px;"></div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:left;width:max-content;margin-left:auto;">
+            SUCCESS: <span id="ast-success">0.00%</span><br>
+            FAILURE: <span id="ast-failure">0.00%</span><br>
+            NONE:&nbsp;&nbsp;&nbsp; <span id="ast-none">0.00%</span><br>
+            NOFAIL:&nbsp; <span id="ast-nofail">0.00%</span><br>
+        </div>
+    </div>
+</body>
+</html>

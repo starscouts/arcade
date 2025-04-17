@@ -1,0 +1,237 @@
+{
+  "crash": {
+    "title": "Kartik Crash Reporter",
+    "head": "Kartik stopped working",
+    "intro": "Kartik encountered a problem and exited unexpectedly. We recorded some additional information, and a crash report has been automatically sent to the developers if you were connected to the Internet.",
+    "report": [
+      "Alternately, a crash report has been created in « ",
+      " », so that you can send it to the developers when you will have Internet access."
+    ],
+    "close": "Close",
+    "reset": "Reset Kartik and close"
+  },
+  "updates": {
+    "ok": "Up to date",
+    "available": "Game updates available",
+    "git": "Running trunk version",
+    "error": "Unable to check for updates",
+    "wait": "Checking for updates...",
+    "warn": [
+        "Updates available",
+        "Download the new version of Kartik from the official website to get the newest features and bug fixes."
+    ]
+  },
+  "scenario": {
+    "intro": [
+      "Heyo, what about a lil race?",
+      "Hey, you're back! What 'bout a lil race?",
+      "Shall we do a lil race?",
+      "Have a race?"
+    ],
+    "ahead1": [
+      "Oh no!",
+      "Aw shit, that's not possible!",
+      "But I won't get it...",
+      "Damnit...",
+      "Why you?"
+    ],
+    "ahead2": [
+      "Hey hey hey",
+      "This one's for me!",
+      "I'll get it!",
+      "It's for me!",
+      "For me!"
+    ],
+    "won1": [
+      "Good game!",
+      "Nevermind...",
+      "At least I hoped...",
+      "But, that's not kind!",
+      "Congrats!"
+    ],
+    "won2": [
+      "I told ya!",
+      "As if I hadn't told you!",
+      "I won!",
+      "Great, I won this one!",
+      "And one more for me!"
+    ],
+    "wall1": [
+      "Hey hey!",
+      "Well then, you don't drive well?",
+      "Ouch",
+      "That must've hurt...",
+      "Ouch, in the wall..."
+    ],
+    "wall2": [
+      "Damnit...",
+      "Well...",
+      "Impossible",
+      "Aw crap"
+    ],
+    "start": [
+      "Let's get you airborne!",
+      "You'll see, I'll make you one of those races!",
+      "You'll tell me what ya think",
+      "Let's go!",
+      "And, let's go!",
+      "Wooo, right away!"
+    ]
+  },
+  "discord": {
+    "credits": [
+      "Waiting",
+      "Viewing the credits"
+    ],
+    "game": [
+      "In game",
+      "Singleplayer",
+      "Versus",
+      "Paused"
+    ],
+    "intro": [
+      "Waiting",
+      "On the intro"
+    ],
+    "settings": [
+      "Waiting",
+      "In the settings"
+    ],
+    "win": [
+      "Just won",
+      "Just lost"
+    ]
+  },
+  "intro": [
+    "Press Enter to start",
+    "Press A to start"
+  ],
+  "game": {
+    "credits": {
+      "by": "by"
+    },
+    "gpause": {
+      "title": "Game Paused",
+      "continueg": "Continue",
+      "showhb": "Show hitboxes",
+      "hidehb": "Hide hitboxes",
+      "quit": "Quit"
+    }
+  },
+  "menu": {
+    "titles": [
+      "Singleplayer",
+      "Versus",
+      "Settings",
+      "Credits",
+      "Quit"
+    ],
+    "descriptions": [
+      "Play alone and offline against a robot",
+      "Play with a friend on one screen",
+      "Change zoom and other settings",
+      "View game authors list",
+      "Close the game and return to"
+    ],
+    "distribute": "Do not distribute"
+  },
+  "settings": {
+    "title": "Settings",
+    "back": "Back",
+    "size": "Interface size",
+    "music": "Enable music",
+    "lang": "Language",
+    "voice": "Enable voice",
+    "yes": "yes",
+    "no": "no",
+    "notice": "Changed settings won't apply until you restart Kartik"
+  },
+  "win": {
+    "solo": {
+      "win": "You win!",
+      "lose": "You lose!"
+    },
+    "versus": "Player 0 win!",
+    "quit": [
+      "Press Esc to quit",
+      "Press B to quit"
+    ]
+  },
+  "online": {
+    "menu": {
+      "local": "Local",
+      "online": "Online",
+      "dlocal": "Play with a friend on the same computer",
+      "donline": "Play with a friend on different computers"
+    },
+    "error": {
+      "connection": "Communication Error",
+      "disconnect": "Disconnected"
+    },
+    "connecting": "Connecting to server...",
+    "intro": {
+      "create": "Create a party",
+      "join": "Join a party",
+      "pcreate": "Give this code to your teammate so they can connect to your party:",
+      "pjoin": "Enter the code your teammate gave to connect to their party:"
+    },
+    "disconnected": "Connection Lost",
+    "unable": "Unable to connect to server",
+    "internal": "Internal System Error",
+    "loading": "Preparing to play...",
+    "discord": "Online",
+    "generate": "Loading terrain...",
+    "discord2": "Facing an error",
+    "timeout": "The connection timed out",
+    "aborted": "The other player ended the game",
+    "car0": "Your car",
+    "car1": "Their car"
+  },
+  "stats": {
+    "menu": "Statistics",
+    "title": "Game Statistics",
+    "items": {
+      "times.single": "Time spent in singleplayer",
+      "times.local": "Time spent in local mode",
+      "times.online": "Time spent playing online",
+      "results.wins": "Number of games that you won",
+      "results.loses": "Number of games that you lost",
+      "ingame.walls": "Number of collisions you had",
+      "ingame.laps": "Number of laps you made",
+      "ingame.turns": "Number of rotations you made"
+    }
+  },
+  "polymer": {
+    "gpu": "GPU Support Status",
+    "gpuShift": "Press Shift for details",
+    "logging": "We are logging you in ; check for your Web browser window and accept the login.",
+    "loginClose": "You can now close this tab/window and go back to Kartik.",
+    "gatheringLogin": "We are checking your account ; this may take a while.",
+    "loginIntro": "Press L to login",
+    "logout": "L to logout",
+    "ktoLevel": "Level",
+    "ktoMaxLevel": "God",
+    "error": [
+      "Unable to communicate with servers",
+      "You won't be able to use Kartik Online until we can connect to the servers.",
+      "Go online to log in"
+    ],
+    "updateError": [
+      "Unable to check for updates",
+      "We cannot check for new updates right now, please try again later."
+    ],
+    "levelup": [
+      "Level up!",
+      "You have reached level",
+      "and you're gaining power! Continue and try to reach the maximum level."
+    ],
+    "finished": [
+      "You've beaten the game!",
+      "Finished Kartik?! Yes. You've reached the god level!"
+    ],
+    "token": [
+      "Logged out from another place",
+      "You have been logged out from Kartik Online because your session has been terminated from somewhere else."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Lobby | Rock Paper Scissors | Minteck Arcade</title>
+    <link rel="icon" href="/_general/favicon.svg" type="image/svg+xml">
+    <style>
+        body {
+            background: black;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<iframe src="/_general/navbar.html" style="position: fixed;z-index: 9999999999;top: 0;border: none;left: 0;right: 0;height: 32px;width: 100%;"></iframe>
+<div style="display:flex;position:fixed;inset:0;align-items: center;justify-content: center;top:32px;">
+    <div>
+        <h1>Online Mode</h1>
+        <p>Enter a name for your game room: (this is the name you will give to the other player; make sure you pick something unique)</p>
+        <input maxlength="30" placeholder="Game Room Name" name="room" type="text">
+        <p>Enter a player name: (it will be shown to the other player)</p>
+        <input maxlength="30" placeholder="Player Name" name="name" type="text">
+        <p>Your game is encrypted and only you, the other player, and Minteck Arcade can know what you are doing. Player name and game room name are not stored. The other player will see your IP address.</p>
+        <div style="width:max-content;margin-left:auto;margin-right:auto;">
+            <a href="#" onclick="goIfGood();" style="color:white;text-decoration:none;display:block;border:1px solid white;padding:10px;">Let's go!</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function goIfGood() {
+        if (document.getElementsByName("room")[0].value !== "" && document.getElementsByName("name")[0].value !== "") {
+            location.href = "game.html#online/" + btoa(document.getElementsByName("room")[0].value) + "|" + btoa(document.getElementsByName("name")[0].value);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#000000;margin:0;height:100%;width:100%;">
+<head>
+    <script src="webinit/jquery.js"></script>
+    <script>
+        if (location.hash !== "#ready") {
+            location.hash = "#ready";
+            location.reload();
+        }
+        global = window;
+    </script>
+    <style>
+        * {
+            cursor: default !important;
+        }
+    </style>
+    <script>if (typeof require !== "undefined") {native = true;try{global.native = true;}catch(e){}} else {native = false;try{global.native = false;}catch(e){}}if (!native){global = window;}if (native){kresources=require('@electron/remote').getCurrentWindow().resources;trackEvent=require('@electron/remote').getCurrentWindow().trackEvent;require('@electron/remote').getCurrentWindow().log(" * Parsing view");}info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};</script>
+    <meta charset="UTF-8">
+    <title>Kartik: A New Start | Minteck Arcade</title>
+    <script src="./crash/client.js"></script>
+    <script src="./lang/loader.js"></script>
+    <link rel="stylesheet" href="./views/common/fonts.css">
+    <link rel="stylesheet" href="./views/common/index.css">
+    <script src="./views/script/core_head.js"></script>
+    <script src="./views/script/core_compatlayer.js"></script>
+    <script src="./views/script/core_fullscreen.js"></script>
+    <link rel="icon" href="/_general/favicon.svg" type="image/svg+xml">
+</head>
+<body style="background:#000000;margin:0;height:100%;width:100%;zoom:1.2;">
+<iframe src="/_general/navbar.html" style="position: fixed;z-index: 9999999999;top: 0;border: none;left: 0;right: 0;height: 32px;width: 100%;"></iframe>
+
+    <div id="dummyloader" style="display:flex;align-items:center;justify-content:center;position:fixed;z-index:1;inset: 0;height: 100%;background:#064896;overflow:hidden;">
+    </div>
+    <div style="height: 64px;position: fixed;bottom: 10px;left: 0;background-image: url(./logo/newloader.svg);width: 100000000px;background-size: contain;animation-name: loading;animation-direction: reverse;animation-fill-mode: forwards;animation-timing-function: linear;animation-duration: 5000s;animation-iteration-count: infinite;opacity: .5;"></div>
+    <style>
+        @keyframes loading {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: -900000px;
+            }
+        }
+        @keyframes logo {
+            0% {
+                transform: rotate3d(1, 1, 1, 0deg);
+            }
+            100% {
+                transform: rotate3d(1, 1, 1, 360deg);
+            }
+        }
+    </style>
+    <div id="notification" style="position: fixed; z-index: 9999; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; width: 256px; right: -300px; top: 20px; opacity: 0; border-radius: 10px; backdrop-filter: blur(10px); transition: right 400ms linear 0s, opacity 400ms linear 0s;">
+        <span id="notification-title" style="
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    padding-bottom: 5px;
+">hello</span>
+        <span id="notification-message" style="
+    display: block;
+    max-width: 256px;
+    text-align: left;
+">goodbye</span>
+    </div>
+    <div id="message" style="
+    position: fixed;
+    display: none;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 48px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #2b2b2b;
+    border-bottom: none;
+    pointer-events: none;
+    z-index: 20;
+    "><span id="message-character" style="
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 8px;
+    left: 56px;
+    background: #3c3c3c;
+    border-radius: 100%;
+    border: 1px solid #5f5f5f;
+"><img src="./scenario/character/neutral.png" id="message-character-inner" style="
+    position: fixed;
+    bottom: 8px;
+    width: 66px;
+    left: 56px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    "></span><span id="message-text" style="
+    position: fixed;
+    left: 156px;
+    width: calc(100% - 220px);
+    bottom: 11px;
+    font-size: 14px;
+    height: 28px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+"></span></div>
+    <iframe id="wb" src="views/loader.html" style="height:calc(100% - 32px);width:100%;border: 0;z-index:2;top:32px;left:0;right:0;bottom:0;position:fixed;opacity:0;transition:opacity 500ms;"></iframe>
+    <script>
+        setTimeout(() => {
+            document.getElementById("wb").style.opacity = "1";
+            if (location.hash !== "#ready") {
+                document.getElementById("bar-outer-outer").style.opacity = "1";
+            }
+        }, 1500)
+    </script>
+    <script src="./views/script/core_chart.js"></script>
+    <script src="./views/script/core_music.js"></script>
+    <script src="./views/script/core_viewer.js"></script>
+    <script src="./views/script/core_notification.js"></script>
+<script>info("MainWindow", "Main container up!");if (native){require('@electron/remote').getCurrentWindow().log(" * View loaded, Kartik is now up and running!");}</script>
+
+    <div id="error-outer" style="display:none;background:rgba(0, 0, 0, .5);backdrop-filter: blur(10px);position:fixed;inset:0;align-items:center;justify-content: center;z-index:999;text-align: center;">
+        <div id="error" style="background:#111;border-radius:10px;color:white;max-width:40vw;">
+            <div id="error-title" style="padding:10px;background:#222;border-top-left-radius: 10px;border-top-right-radius: 10px;">Kartik encountered an error</div>
+            <div id="error-details" style="padding:10px;">An error occurred and Kartik couldn't continue running. We collected some info that you can send to the developers so they can fix the problem.<textarea id="crash-dump" disabled="" style="margin: 0;resize: none;background: #171717;color: white;margin-top: 10px;font-family: monospace;font-size: 10px;width: calc(100% - 13px);padding: 5px;border: 2px ridge white;border-radius: 0;height: 180px;overflow-y: scroll;">Nothing there yet!</textarea><div id="error-buttons" style="margin-top: 10px;"><button class="error-button" style="padding: 5px 10px;border-radius: 5px;background: #161616;color: white;border: 1px solid #121212;cursor: pointer !important;outline:none;" onclick="location.reload();">Restart</button></div></div>
+        </div>
+
+        <style>
+            .error-button:hover {
+                background: #212121 !important;
+            }
+
+            .error-button:active, .error-button:focus {
+                background: #252525 !important;
+            }
+        </style>
+    </div>
+
+    <script src="./views/script/core_crash.js"></script>
+</body>
+</html>

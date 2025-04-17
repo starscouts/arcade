@@ -1,0 +1,237 @@
+{
+    "crash": {
+        "title": "Kartik Crash Reportero",
+        "head": "Kartik ha dejado de funcionar",
+        "intro": "Kartik se encontr\u00f3 con un problema y se detuvo inesperadamente.Recopilamos informaci\u00f3n adicional y se envi\u00f3 autom\u00e1ticamente un informe de bloqueo a los desarrolladores si estaba conectado a Internet.",
+        "report": [
+            "Adem\u00e1s, se cre\u00f3 un informe de bloqueo en \"",
+            "\", para que pueda enviarlo a los desarrolladores cuando tenga acceso a Internet."
+        ],
+        "close": "cerrar",
+        "reset": "Reinicializaci\u00f3n Kartik y cierre"
+    },
+    "updates": {
+        "ok": "Hasta la fecha",
+        "available": "Actualizaciones de juegos disponibles",
+        "git": "Ejecuci\u00f3n de la versi\u00f3n troncal",
+        "error": "No se puede comprobar si hay actualizaciones",
+        "wait": "Buscando actualizaciones...",
+        "warn": [
+            "Las actualizaciones est\u00e1n disponibles",
+            "Descargue la nueva versi\u00f3n de Kartik desde el sitio web oficial para beneficiarse de las \u00faltimas caracter\u00edsticas y correcciones de errores."
+        ]
+    },
+    "scenario": {
+        "intro": [
+            "Oye, hola, eso te dice una peque\u00f1a carrera?",
+            "\u00a1Ah, aqu\u00ed est\u00e1s de nuevo! \u00bfEso te dice un poco de raza?",
+            "\u00bfY si tuvi\u00e9ramos una peque\u00f1a carrera?",
+            "\u00bfVamos a dar un paseo?"
+        ],
+        "ahead1": [
+            "\u00a1No!",
+            "\u00a1Joder, no es posible!",
+            "Pero no voy a llegar all\u00ed...",
+            "oh...",
+            "\u00bfPor qu\u00e9?"
+        ],
+        "ahead2": [
+            "Hola hola hola",
+            "\u00a1Este es para m\u00ed!",
+            "\u00a1Lo tendr\u00e9!",
+            "\u00a1Es para m\u00ed!",
+            "\u00a1Es m\u00edo!"
+        ],
+        "won1": [
+            "\u00a1Bien hecho!",
+            "L\u00e1stima para m\u00ed...",
+            "Podr\u00eda haber esperado...",
+            "Pero, no es muy agradable!",
+            "\u00a1Bien hecho!"
+        ],
+        "won2": [
+            "Te lo hab\u00eda dicho !",
+            "\u00a1Como si no te lo hubiera advertido!",
+            "He ganado !",
+            "\u00a1Genial, lo gan\u00e9!",
+            "\u00a1Y uno m\u00e1s para m\u00ed!"
+        ],
+        "wall1": [
+            "\u00a1Ah ah!",
+            "Bueno, entonces, \u00bfno vamos bien?",
+            "Ay",
+            "Debe doler ...",
+            "\u00a1Splaf, c't'obstacle!"
+        ],
+        "wall2": [
+            "Mierda",
+            "Caca",
+            "No es posible",
+            "Puti"
+        ],
+        "start": [
+            "\u00a1Voy a divertirme!",
+            "Ya ver\u00e1s, \u00a1te har\u00e9 una de esas carreras!",
+            "Dime alguna noticia",
+            "\u00a1Vamos!",
+            "Aqu\u00ed vamos !",
+            "\u00a1Wooo, adelante!"
+        ]
+    },
+    "discord": {
+        "credits": [
+            "A la espera",
+            "En los creditos"
+        ],
+        "game": [
+            "Apuesta",
+            "Modo solo",
+            "Modo Versus",
+            "Pausa"
+        ],
+        "intro": [
+            "A la espera",
+            "Sobre la introducci\u00f3n"
+        ],
+        "settings": [
+            "A la espera",
+            "En la configuraci\u00f3n"
+        ],
+        "win": [
+            "Acaba de ganar",
+            "Acaba de perder"
+        ]
+    },
+    "intro": [
+        "Presiona enter para comenzar",
+        "Presione A para comenzar"
+    ],
+    "game": {
+        "credits": {
+            "by": "por"
+        },
+        "gpause": {
+            "title": "Juego pausado",
+            "continueg": "seguir",
+            "showhb": "Mostrar hitbox",
+            "hidehb": "Ocultar hitbox",
+            "quit": "Dejar"
+        }
+    },
+    "menu": {
+        "titles": [
+            "Solo",
+            "Versus",
+            "Opciones",
+            "Cr\u00e9ditos",
+            "Dejar"
+        ],
+        "descriptions": [
+            "Juega solo y sin conexi\u00f3n contra un robot",
+            "Juega dos en la misma pantalla",
+            "Cambiar el zoom y la configuraci\u00f3n",
+            "Muestra la lista de autores del juego.",
+            "Cierra el juego y vuelve a"
+        ],
+        "distribute": "No distribuir"
+    },
+    "settings": {
+        "title": "Opciones",
+        "back": "Regresar",
+        "size": "Tama\u00f1o de la interfaz",
+        "music": "Activar musica",
+        "lang": "Lengua",
+        "voice": "Activar voz",
+        "yes": "s\u00ed",
+        "no": "No",
+        "notice": "La configuraci\u00f3n solo se aplicar\u00e1 despu\u00e9s de reiniciar Kartik"
+    },
+    "win": {
+        "solo": {
+            "win": "Hab\u00e9is ganado !",
+            "lose": "Perdiste !"
+        },
+        "versus": "\u00a1El jugador 0 ha ganado!",
+        "quit": [
+            "Presione Esc para salir",
+            "Presione B para salir"
+        ]
+    },
+    "online": {
+        "menu": {
+            "local": "Local",
+            "online": "En l\u00ednea",
+            "dlocal": "Juega con un amigo en la misma m\u00e1quina",
+            "donline": "Juega con un amigo en diferentes m\u00e1quinas."
+        },
+        "error": {
+            "connection": "Error de comunicaci\u00f3n",
+            "disconnect": "Desconectado"
+        },
+        "connecting": "Conexi\u00f3n al servidor ...",
+        "intro": {
+            "create": "Crea un juego",
+            "pcreate": "Dale este c\u00f3digo a tu compa\u00f1ero de equipo para que inicie sesi\u00f3n en tu juego:",
+            "join": "Unirse a un juego",
+            "pjoin": "Ingrese el c\u00f3digo de su compa\u00f1ero de equipo para unirse a su juego:"
+        },
+        "disconnected": "Conexi\u00f3n perdida",
+        "unable": "Imposible conectarse al servidor",
+        "internal": "Error interno del sistema",
+        "loading": "Prepar\u00e1ndose para el juego ...",
+        "discord": "En l\u00ednea",
+        "generate": "Cargando la tierra ...",
+        "discord2": "Encontrar un error",
+        "timeout": "Se super\u00f3 el tiempo de espera",
+        "aborted": "El otro jugador ha dejado el juego.",
+        "car0": "Tu carro",
+        "car1": "Su auto"
+    },
+    "stats": {
+        "menu": "Estad\u00edsticas",
+        "title": "Estad\u00edsticas de juego",
+        "items": {
+            "times.single": "Tiempo empleado en el modo de un jugador",
+            "times.local": "Tiempo empleado en modo local",
+            "times.online": "Tiempo pasado en modo online",
+            "results.wins": "Numero de juegos ganados",
+            "results.loses": "N\u00famero de juegos perdidos",
+            "ingame.walls": "N\u00famero total de colisiones",
+            "ingame.laps": "N\u00famero total de vueltas",
+            "ingame.turns": "N\u00famero total de vueltas"
+        }
+    },
+    "polymer": {
+        "gpu": "Estado de soporte de GPU",
+        "gpuShift": "Presione Shift para ver m\u00e1s",
+        "logging": "Te conectamos; ",
+        "loginClose": "Ahora puede cerrar esta pesta\u00f1a o ventana y volver a Kartik.",
+        "gatheringLogin": "Verificamos su cuenta; ",
+        "loginIntro": "Presione L para conectarse",
+        "logout": "L para cerrar la sesi\u00f3n",
+        "ktoLevel": "Nivel",
+        "ktoMaxLevel": "Dios",
+        "error": [
+            "No se puede comunicar con los servidores.",
+            "No podr\u00e1 utilizar Kartik Online hasta que podamos comunicarnos con los servidores.",
+            "Conectar a internet"
+        ],
+        "updateError": [
+            "No se puede buscar actualizaciones",
+            "No podemos buscar actualizaciones en este momento, int\u00e9ntelo de nuevo m\u00e1s tarde."
+        ],
+        "levelup": [
+            "Nivel Superior !",
+            "Has alcanzado el nivel",
+            "y ganas poder! "
+        ],
+        "finished": [
+            "\u00a1Ganaste el juego!",
+            "\u00a1\u00bfKartik terminado ?! "
+        ],
+        "token": [
+            "Desconectado de otro lugar",
+            "Se ha desconectado de Kartik Online porque su sesi\u00f3n se termin\u00f3 en otro lugar."
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#000000;margin:0;height:100%;width:100%;">
+<head>
+    <script>native = false;global = window;info=(_a,b)=>{console.info(b);};warn=(_a,b)=>{console.warn(b);};error=(_a,b)=>{console.error(b);};currentNest = {};</script><script src="../webinit/jquery.js"></script><script>window.kresources = kresources = JSON.parse($.ajax("/kartik/resources.json", { async: false }).responseText);</script>
+    <script src="../lang/loader.js"></script>
+    <script src="../scenario/client.js"></script>
+    <script src="./script/global_compatlayer.js"></script><script src="../typescript/mainloader.js"></script>
+    <meta charset="UTF-8">
+    <title>Kartik</title>
+    <link rel="stylesheet" href="common/fonts.css">
+    <link rel="stylesheet" href="common/blur.css">
+
+</head>
+<body style="background-color:#064896;margin:0;height:100%;width:100%;background-size:cover;background-position:center;background-image:url('./splash.svg');">
+    <script>info("MainWindow", "Rendering initial frame...");
+    
+    if (native) {
+        scale=require('@electron/remote').getCurrentWindow().scale;document.body.style.zoom=scale;
+    }
+    
+    </script>
+    <div id="banner-outer" style="background-size:cover;background-position:center;background-image:url('./splash.svg');display:flex;align-items:center;justify-content:center;inset: 0;height: 100%;background-color:#064896;overflow:hidden;position:fixed;z-index:1;">
+        <div id="banner-contrast" style="z-index:2;position:fixed;background:rgba(0, 0, 0, .5);backdrop-filter:blur(10px);top:calc(50% - 95px);left:0;right:0;height:200px;"></div>
+        <img id="banner" src="../logo/full.png" alt="" style="height:auto;width:380px;z-index:3;">
+        <div id="banner-decoration" style="width: 50px;height: 162px;position: relative;left: -452px;transform: rotate(-45deg);background: #042349;filter: blur(10px);animation-name: deco;animation-duration: 2s;animation-timing-function: linear;animation-iteration-count: infinite;opacity:.5;display:none;z-index:4;"></div>
+        <style>
+            @keyframes deco {
+                0% { left: -472px; }
+                100% { left: 1220px; }
+            }
+        </style>
+    </div>
+    <video style="display: none;position:fixed;inset:0;width: 100%;height: 100%;background: #f4f3f4;" id="intro-video">
+        <source src="intro.mp4">
+    </video>
+    <script>
+        document.write(`<div style="position: fixed;bottom: 20px;right: 20px;font-size: 12px;padding: 10px 20px;background: lightblue;border-radius: 5px;transition: all 200ms;display:none;" id="updates">${lang.updates.wait}</div>`);
+    </script>
+    <div id="warning" style="opacity:0;transition:opacity 200ms;position: fixed;background: rgba(139,0,0,0.5);color: white;padding: 20px 10px;max-width: 40vw;text-align: center;border-radius: 10px;left: 20vw;top: 30vh;"><h2><script>document.write(lang.updates.warn[0]);</script></h2><p><script>document.write(lang.updates.warn[1]);</script></p></div>
+
+    <script src="./script/loader_global.js"></script>
+    <script>info("LoadWindow", "Launching start-up procedure");</script>
+
+    <script src="./script/client_fullscreen.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | Rock Paper Scissors | Minteck Arcade</title>
+    <link rel="icon" href="/_general/favicon.svg" type="image/svg+xml">
+    <style>
+        body {
+            background: black;
+        }
+        td {
+            border: 1px solid white;
+            width: 25vh;
+            height: 25vh;
+            cursor: pointer;
+            text-align: center;
+            font-family: monospace;
+            font-size: 15vh;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .insight {
+            background: rgba(255, 255, 0, 0.3);
+        }
+        #resetbtn:hover {
+            background: white !important;
+            color: black !important;
+        }
+        #resetbtn:disabled {
+            pointer-events: none;
+            opacity: .5;
+        }
+    </style>
+    <script src="morpion/base.js"></script>
+    <script src="morpion/online.js"></script>
+</head>
+<body>
+<iframe src="/_general/navbar.html" style="position: fixed;z-index: 9999999999;top: 0;border: none;left: 0;right: 0;height: 32px;width: 100%;"></iframe>
+    <div style="display:flex;align-items:center;justify-content: center;position:fixed;inset: 0;z-index:5;top:32px;">
+        <div id="loader" style="color: white;text-align: center;">
+            Loading...
+        </div>
+        <table id="game" style="display: none;">
+            <tr>
+                <td id="p1" style="cursor:no-drop;"><img src="rock.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+                <td id="p2" style="cursor:no-drop;"><img src="paper.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+                <td id="p3" style="cursor:no-drop;"><img src="scissors.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+            </tr>
+            <tr>
+                <td id="p4" onclick="player(4);"><img src="rock.png" style="width:100%;vertical-align: middle;"></td>
+                <td id="p5" onclick="player(5);"><img src="paper.png" style="width:100%;vertical-align: middle;"></td>
+                <td id="p6" onclick="player(6);"><img src="scissors.png" style="width:100%;vertical-align: middle;"></td>
+            </tr>
+        </table>
+        <table class="game-template" style="display:none;">
+            <tr>
+                <td id="p1" style="cursor:no-drop;"><img src="rock.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+                <td id="p2" style="cursor:no-drop;"><img src="paper.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+                <td id="p3" style="cursor:no-drop;"><img src="scissors.png" style="width:100%;opacity:.5;filter:saturate(0);vertical-align: middle;"></td>
+            </tr>
+            <tr>
+                <td id="p4" onclick="player(4);"><img src="rock.png" style="width:100%;vertical-align: middle;"></td>
+                <td id="p5" onclick="player(5);"><img src="paper.png" style="width:100%;vertical-align: middle;"></td>
+                <td id="p6" onclick="player(6);"><img src="scissors.png" style="width:100%;vertical-align: middle;"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="wait" style="position:fixed;inset: 0;z-index:10;cursor:wait;display:none;"></div>
+    <pre id="instructions" style="position:fixed;bottom:0;left:0;color:white;margin:0;">// ML Model Training
+model.addTrainedGame();</pre>
+    <div id="stats" style="position:fixed;top:32px;left:0;color:white;margin:0;font-family:monospace;">
+        <div id="online-credits" style="display:none;">Game made with ❤️ for Twi</div>
+        <div id="stats-left"></div>
+        <div id="counter-left">Games Played: <span id="counter-left-total">0</span><br>Games Won:&nbsp;&nbsp;&nbsp; <span id="counter-left-win">0</span><br>Games Lost:&nbsp;&nbsp; <span id="counter-left-lose">0</span></div>
+    </div>
+    <div id="last-games" style="text-align:right;position:fixed;top:32px;right:0;color:white;margin:0;font-family:monospace;">-</div>
+    <div id="online-restart-btn" style="text-align:left;position:fixed;bottom:0;left:0;color:white;margin:0;font-family:monospace;z-index:999999;">
+        <button disabled id="resetbtn" onclick="reset();" style="padding:10px 20px;background:black;color:white;border:1px solid white;border-bottom:none;border-left:none;">Restart Game</button>
+    </div>
+    <div id="auto-stats"></div>
+</body>
+</html>

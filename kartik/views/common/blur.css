@@ -1,0 +1,3 @@
+#intro, #laps-inner-car0, #laps-inner-car1, #paused, #credits, #gpuinfo, #warning {
+    backdrop-filter: blur(10px);
+}

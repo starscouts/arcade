@@ -1,0 +1,2831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1600"
+   height="770"
+   id="svg622"
+   sodipodi:docname="tiler.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs626" />
+  <sodipodi:namedview
+     id="namedview624"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.43798583"
+     inkscape:cx="778.56401"
+     inkscape:cy="374.44134"
+     inkscape:window-width="1600"
+     inkscape:window-height="845"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg622" />
+  <rect
+     width="1600"
+     height="770"
+     fill="#504b4b"
+     id="rect2"
+     style="fill:#064896;fill-opacity:1" />
+  <rect
+     width="1600"
+     height="770"
+     fill="#21d789"
+     opacity="0"
+     id="rect4" />
+  <g
+     id="g596">
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,123.07692131629346,-7.105427357601002e-15)"
+       id="g10">
+      <circle
+         cx="23.999998092651367"
+         cy="23.99999866485596"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle6" />
+      <circle
+         cx="56"
+         cy="55.99999866485596"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle8" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,246.1538523160491,123.07692923912667)"
+       id="g14">
+      <polygon
+         points="79.99999866485587,79.99999866485595 -0.0000013351441339182202,159.99999866485595 -0.0000013351441339182202,79.99999866485595 79.99999866485587,79.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon12" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,369.2307756864104,246.15385260948798)"
+       id="g24">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g22">
+        <polygon
+           points="-0.0000013351441339182202,239.99999866485595 15.999998664855866,159.99999866485595 31.999998664855866,159.99999866485595 15.999998664855866,239.99999866485595 -0.0000013351441339182202,239.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon16" />
+        <polygon
+           points="31.999998092651367,239.99999866485595 47.99999809265137,159.99999866485595 63.99999809265137,159.99999866485595 47.99999809265137,239.99999866485595 31.999998092651367,239.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon18" />
+        <polygon
+           points="64,239.99999866485595 80,159.99999866485595 80,239.99999866485595 64,239.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon20" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,123.07692131629352,861.5384826660156)"
+       id="g30">
+      <circle
+         cx="23.999998092651367"
+         cy="263.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle26" />
+      <circle
+         cx="56"
+         cy="295.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle28" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-492.30771460899973,615.3846376859223)"
+       id="g34">
+      <polygon
+         points="79.99999866485587,319.9999986648559 -0.0000013351441339182202,399.9999986648559 -0.0000013351441339182202,319.9999986648559 79.99999866485587,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon32" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,738.4615572415862,615.3846341646638)"
+       id="g38">
+      <polygon
+         points="79.99999866485587,399.999998664856 -0.0000013351441339182202,479.999998664856 -0.0000013351441339182202,399.999998664856 79.99999866485587,399.999998664856"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon36" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,123.07692307692251,1600)"
+       id="g48">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g46">
+        <polygon
+           points="-0.0000013351441339182202,559.999998664856 15.999998664855866,479.999998664856 31.999998664855866,479.999998664856 15.999998664855866,559.999998664856 -0.0000013351441339182202,559.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon40" />
+        <polygon
+           points="31.999998092651367,559.999998664856 47.99999809265137,479.999998664856 63.99999809265137,479.999998664856 47.99999809265137,559.999998664856 31.999998092651367,559.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon42" />
+        <polygon
+           points="64,559.999998664856 80,479.999998664856 80,559.999998664856 64,559.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon44" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,246.15385143573462,-123.07693011944116)"
+       id="g54">
+      <circle
+         cx="104"
+         cy="23.99999866485596"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle50" />
+      <circle
+         cx="136"
+         cy="55.99999866485596"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle52" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,369.2307815551758,0)"
+       id="g64">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g62">
+        <polygon
+           points="80,159.99999866485595 96,79.99999866485595 112,79.99999866485595 96,159.99999866485595 80,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon56" />
+        <polygon
+           points="112,159.99999866485595 128,79.99999866485595 144,79.99999866485595 128,159.99999866485595 112,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon58" />
+        <polygon
+           points="144,159.99999866485595 160,79.99999866485595 160,159.99999866485595 144,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon60" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,492.3077049255371,123.0769233703613)"
+       id="g70">
+      <circle
+         cx="104"
+         cy="183.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle66" />
+      <circle
+         cx="136"
+         cy="215.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle68" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-246.15385055541987,615.3846321105958)"
+       id="g80">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g78">
+        <polygon
+           points="80,319.999998664856 96,239.99999866485598 112,239.99999866485598 96,319.999998664856 80,319.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon72" />
+        <polygon
+           points="112,319.999998664856 128,239.99999866485598 144,239.99999866485598 128,319.999998664856 112,319.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon74" />
+        <polygon
+           points="144,319.999998664856 160,239.99999866485598 160,319.999998664856 144,319.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon76" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-369.23078536987305,738.4615669250489)"
+       id="g84">
+      <polygon
+         points="160,319.9999986648559 80,399.9999986648559 80,319.9999986648559 160,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon82" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,369.2307815551759,1353.84619140625)"
+       id="g90">
+      <circle
+         cx="104"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle86" />
+      <circle
+         cx="136"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle88" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g100">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g98">
+        <polygon
+           points="80,559.999998664856 96,479.999998664856 112,479.999998664856 96,559.999998664856 80,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon92" />
+        <polygon
+           points="112,559.999998664856 128,479.999998664856 144,479.999998664856 128,559.999998664856 112,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon94" />
+        <polygon
+           points="144,559.999998664856 160,479.999998664856 160,559.999998664856 144,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon96" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,246.15385260948784,369.23077568641065)"
+       id="g104">
+      <polygon
+         points="240,-0.000001335144041902936 160,79.99999866485595 160,-0.000001335144041902936 240,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon102" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,615.3846282958984,369.2307815551758)"
+       id="g114">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g112">
+        <polygon
+           points="160,159.99999866485595 176,79.99999866485595 192,79.99999866485595 176,159.99999866485595 160,159.99999866485595"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon106" />
+        <polygon
+           points="192,159.99999866485595 208,79.99999866485595 224,79.99999866485595 208,159.99999866485595 192,159.99999866485595"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon108" />
+        <polygon
+           points="224,159.99999866485595 240,79.99999866485595 240,159.99999866485595 224,159.99999866485595"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon110" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,5.684341886080802e-14,615.3846282958984)"
+       id="g118">
+      <polygon
+         points="240,159.99999866485595 160,239.99999866485595 160,159.99999866485595 240,159.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon116" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-123.07692718505854,738.461555480957)"
+       id="g124">
+      <circle
+         cx="184"
+         cy="263.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle120" />
+      <circle
+         cx="216"
+         cy="295.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle122" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-246.15386199951172,861.5384902954103)"
+       id="g130">
+      <circle
+         cx="184"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle126" />
+      <circle
+         cx="216"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle128" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g136">
+      <circle
+         cx="184"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle132" />
+      <circle
+         cx="216"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle134" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g146">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g144">
+        <polygon
+           points="160,559.999998664856 176,479.999998664856 192,479.999998664856 176,559.999998664856 160,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon138" />
+        <polygon
+           points="192,559.999998664856 208,479.999998664856 224,479.999998664856 208,559.999998664856 192,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon140" />
+        <polygon
+           points="224,559.999998664856 240,479.999998664856 240,559.999998664856 224,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon142" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g150">
+      <polygon
+         points="320,-0.000001335144041902936 240,79.99999866485595 240,-0.000001335144041902936 320,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon148" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,861.5384826660156,369.2307815551757)"
+       id="g154">
+      <polygon
+         points="320,79.99999866485595 240,159.99999866485595 240,79.99999866485595 320,79.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon152" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,738.461555480957,-123.0769271850586)"
+       id="g158">
+      <polygon
+         points="320,159.99999866485595 240,239.99999866485595 240,159.99999866485595 320,159.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon156" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g162">
+      <polygon
+         points="320,239.99999866485598 240,319.999998664856 240,239.99999866485598 320,239.99999866485598"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon160" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,861.5384826660156,1107.6923522949219)"
+       id="g168">
+      <circle
+         cx="264"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle164" />
+      <circle
+         cx="296"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle166" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,-246.15385437011707,1107.6923370361328)"
+       id="g174">
+      <circle
+         cx="264"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle170" />
+      <circle
+         cx="296"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle172" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g184">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g182">
+        <polygon
+           points="240,559.999998664856 256,479.999998664856 272,479.999998664856 256,559.999998664856 240,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon176" />
+        <polygon
+           points="272,559.999998664856 288,479.999998664856 304,479.999998664856 288,559.999998664856 272,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon178" />
+        <polygon
+           points="304,559.999998664856 320,479.999998664856 320,559.999998664856 304,559.999998664856"
+           fill-opacity="1"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon180" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1107.6923522949219,123.0769230769228)"
+       id="g188">
+      <polygon
+         points="400,-0.000001335144041902936 320,79.99999866485595 320,-0.000001335144041902936 400,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon186" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g194">
+      <circle
+         cx="344"
+         cy="103.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle190" />
+      <circle
+         cx="376"
+         cy="135.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle192" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,246.15386199951183,861.5384902954102)"
+       id="g198">
+      <polygon
+         points="400,159.99999866485595 320,239.99999866485595 320,159.99999866485595 400,159.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon196" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,984.6154174804688,-123.07693481445312)"
+       id="g202">
+      <polygon
+         points="400,239.99999866485598 320,319.999998664856 320,239.99999866485598 400,239.99999866485598"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon200" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,1.1368683772161603e-13,1107.6923522949219)"
+       id="g206">
+      <polygon
+         points="400,319.9999986648559 320,399.9999986648559 320,319.9999986648559 400,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon204" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1107.6923522949219,1353.84619140625)"
+       id="g216">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g214">
+        <polygon
+           points="320,479.999998664856 336,399.999998664856 352,399.999998664856 336,479.999998664856 320,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon208" />
+        <polygon
+           points="352,479.999998664856 368,399.999998664856 384,399.999998664856 368,479.999998664856 352,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon210" />
+        <polygon
+           points="384,479.999998664856 400,399.999998664856 400,479.999998664856 384,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon212" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1107.6923522949219,1600)"
+       id="g222">
+      <circle
+         cx="344"
+         cy="503.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle218" />
+      <circle
+         cx="376"
+         cy="535.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle220" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g226">
+      <polygon
+         points="480,-0.000001335144041902936 400,79.99999866485595 400,-0.000001335144041902936 480,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon224" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g236">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g234">
+        <polygon
+           points="400,159.99999866485595 416,79.99999866485595 432,79.99999866485595 416,159.99999866485595 400,159.99999866485595"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon228" />
+        <polygon
+           points="432,159.99999866485595 448,79.99999866485595 464,79.99999866485595 448,159.99999866485595 432,159.99999866485595"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon230" />
+        <polygon
+           points="464,159.99999866485595 480,79.99999866485595 480,159.99999866485595 464,159.99999866485595"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon232" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,369.2307815551759,984.6154098510742)"
+       id="g240">
+      <polygon
+         points="480,159.99999866485595 400,239.99999866485595 400,159.99999866485595 480,159.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon238" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1107.6923370361328,-246.1538543701172)"
+       id="g250">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g248">
+        <polygon
+           points="400,319.999998664856 416,239.99999866485598 432,239.99999866485598 416,319.999998664856 400,319.999998664856"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon242" />
+        <polygon
+           points="432,319.999998664856 448,239.99999866485598 464,239.99999866485598 448,319.999998664856 432,319.999998664856"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon244" />
+        <polygon
+           points="464,319.999998664856 480,239.99999866485598 480,319.999998664856 464,319.999998664856"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon246" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,123.07691955566418,1230.769271850586)"
+       id="g256">
+      <circle
+         cx="424"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle252" />
+      <circle
+         cx="456"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle254" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1353.84619140625,0)"
+       id="g262">
+      <circle
+         cx="424"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle258" />
+      <circle
+         cx="456"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle260" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1476.923095703125,123.076904296875)"
+       id="g268">
+      <circle
+         cx="424"
+         cy="503.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle264" />
+      <circle
+         cx="456"
+         cy="535.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle266" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,738.4615384615387,861.5384615384614)"
+       id="g278">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g276">
+        <polygon
+           points="480,79.99999866485595 496,-0.000001335144041902936 512,-0.000001335144041902936 496,79.99999866485595 480,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon270" />
+        <polygon
+           points="512,79.99999866485595 528,-0.000001335144041902936 544,-0.000001335144041902936 528,79.99999866485595 512,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon272" />
+        <polygon
+           points="544,79.99999866485595 560,-0.000001335144041902936 560,79.99999866485595 544,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon274" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,984.6153907775879,-615.3846092224121)"
+       id="g284">
+      <circle
+         cx="504"
+         cy="103.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle280" />
+      <circle
+         cx="536"
+         cy="135.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle282" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1600,615.3846282958983)"
+       id="g290">
+      <circle
+         cx="504"
+         cy="183.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle286" />
+      <circle
+         cx="536"
+         cy="215.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle288" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g294">
+      <polygon
+         points="560,239.99999866485598 480,319.999998664856 480,239.99999866485598 560,239.99999866485598"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon292" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1353.846176147461,-246.15382385253906)"
+       id="g300">
+      <circle
+         cx="504"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle296" />
+      <circle
+         cx="536"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle298" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,123.07690429687511,1476.923095703125)"
+       id="g306">
+      <circle
+         cx="504"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle302" />
+      <circle
+         cx="536"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle304" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g310">
+      <polygon
+         points="560,479.999998664856 480,559.999998664856 480,479.999998664856 560,479.999998664856"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon308" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g320">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g318">
+        <polygon
+           points="560,79.99999866485595 576,-0.000001335144041902936 592,-0.000001335144041902936 576,79.99999866485595 560,79.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon312" />
+        <polygon
+           points="592,79.99999866485595 608,-0.000001335144041902936 624,-0.000001335144041902936 608,79.99999866485595 592,79.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon314" />
+        <polygon
+           points="624,79.99999866485595 640,-0.000001335144041902936 640,79.99999866485595 624,79.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon316" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1846.1538696289062,369.23078155517567)"
+       id="g324">
+      <polygon
+         points="640,79.99999866485595 560,159.99999866485595 560,79.99999866485595 640,79.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon322" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1846.1538696289062,615.3846282958983)"
+       id="g330">
+      <circle
+         cx="584"
+         cy="183.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle326" />
+      <circle
+         cx="616"
+         cy="215.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle328" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,492.3076934814455,1353.846176147461)"
+       id="g336">
+      <circle
+         cx="584"
+         cy="263.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle332" />
+      <circle
+         cx="616"
+         cy="295.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle334" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g342">
+      <circle
+         cx="584"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle338" />
+      <circle
+         cx="616"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle340" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,1846.1538696289062,1353.84619140625)"
+       id="g346">
+      <polygon
+         points="640,399.999998664856 560,479.999998664856 560,399.999998664856 640,399.999998664856"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon344" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1723.0769348144531,-123.07693481445312)"
+       id="g350">
+      <polygon
+         points="640,479.999998664856 560,559.999998664856 560,479.999998664856 640,479.999998664856"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon348" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g356">
+      <circle
+         cx="664"
+         cy="23.99999866485596"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle352" />
+      <circle
+         cx="696"
+         cy="55.99999866485596"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle354" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,861.5385093688967,1230.7692909240723)"
+       id="g362">
+      <circle
+         cx="664"
+         cy="103.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle358" />
+      <circle
+         cx="696"
+         cy="135.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle360" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1353.8462142944336,-738.4615859985352)"
+       id="g372">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g370">
+        <polygon
+           points="640,239.99999866485595 656,159.99999866485595 672,159.99999866485595 656,239.99999866485595 640,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon364" />
+        <polygon
+           points="672,239.99999866485595 688,159.99999866485595 704,159.99999866485595 688,239.99999866485595 672,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon366" />
+        <polygon
+           points="704,239.99999866485595 720,159.99999866485595 720,239.99999866485595 704,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon368" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1476.9231414794922,-615.3846588134766)"
+       id="g376">
+      <polygon
+         points="720,239.99999866485598 640,319.999998664856 640,239.99999866485598 720,239.99999866485598"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon374" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,492.30772399902366,1600.0000762939453)"
+       id="g382">
+      <circle
+         cx="664"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle378" />
+      <circle
+         cx="696"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle380" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1723.0769958496094,-369.2308044433594)"
+       id="g388">
+      <circle
+         cx="664"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle384" />
+      <circle
+         cx="696"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle386" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g394">
+      <circle
+         cx="664"
+         cy="503.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle390" />
+      <circle
+         cx="696"
+         cy="535.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle392" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2338.461669921875,123.07692307692272)"
+       id="g398">
+      <polygon
+         points="800,-0.000001335144041902936 720,79.99999866485595 720,-0.000001335144041902936 800,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon396" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1353.8462257385254,-984.6154441833496)"
+       id="g408">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g406">
+        <polygon
+           points="720,159.99999866485595 736,79.99999866485595 752,79.99999866485595 736,159.99999866485595 720,159.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon400" />
+        <polygon
+           points="752,159.99999866485595 768,79.99999866485595 784,79.99999866485595 768,159.99999866485595 752,159.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon402" />
+        <polygon
+           points="784,159.99999866485595 800,79.99999866485595 800,159.99999866485595 784,159.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon404" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,861.5385208129885,1476.9231491088867)"
+       id="g412">
+      <polygon
+         points="800,159.99999866485595 720,239.99999866485595 720,159.99999866485595 800,159.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon410" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2338.461669921875,861.5384826660154)"
+       id="g422">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g420">
+        <polygon
+           points="720,319.999998664856 736,239.99999866485598 752,239.99999866485598 736,319.999998664856 720,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon414" />
+        <polygon
+           points="752,319.999998664856 768,239.99999866485598 784,239.99999866485598 768,319.999998664856 752,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon416" />
+        <polygon
+           points="784,319.999998664856 800,239.99999866485598 800,319.999998664856 784,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon418" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2338.461669921875,1107.6923522949219)"
+       id="g426">
+      <polygon
+         points="800,319.9999986648559 720,399.9999986648559 720,319.9999986648559 800,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon424" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2338.461669921875,1353.84619140625)"
+       id="g432">
+      <circle
+         cx="744"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle428" />
+      <circle
+         cx="776"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle430" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2338.461669921875,1600)"
+       id="g438">
+      <circle
+         cx="744"
+         cy="503.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle434" />
+      <circle
+         cx="776"
+         cy="535.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle436" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,1230.7692777193513,1353.846200796274)"
+       id="g448">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g446">
+        <polygon
+           points="800,79.99999866485595 816,-0.000001335144041902936 832,-0.000001335144041902936 816,79.99999866485595 800,79.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon440" />
+        <polygon
+           points="832,79.99999866485595 848,-0.000001335144041902936 864,-0.000001335144041902936 848,79.99999866485595 832,79.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon442" />
+        <polygon
+           points="864,79.99999866485595 880,-0.000001335144041902936 880,79.99999866485595 864,79.99999866485595"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon444" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2584.615478515625,369.2307815551756)"
+       id="g452">
+      <polygon
+         points="880,79.99999866485595 800,159.99999866485595 800,79.99999866485595 880,79.99999866485595"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon450" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g462">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g460">
+        <polygon
+           points="800,239.99999866485595 816,159.99999866485595 832,159.99999866485595 816,239.99999866485595 800,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon454" />
+        <polygon
+           points="832,239.99999866485595 848,159.99999866485595 864,159.99999866485595 848,239.99999866485595 832,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon456" />
+        <polygon
+           points="864,239.99999866485595 880,159.99999866485595 880,239.99999866485595 864,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon458" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2584.615478515625,861.5384826660154)"
+       id="g472">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g470">
+        <polygon
+           points="800,319.999998664856 816,239.99999866485598 832,239.99999866485598 816,319.999998664856 800,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon464" />
+        <polygon
+           points="832,319.999998664856 848,239.99999866485598 864,239.99999866485598 848,319.999998664856 832,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon466" />
+        <polygon
+           points="864,319.999998664856 880,239.99999866485598 880,319.999998664856 864,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon468" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2584.615478515625,1107.6923522949219)"
+       id="g476">
+      <polygon
+         points="880,319.9999986648559 800,399.9999986648559 800,319.9999986648559 880,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon474" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1969.2308349609375,-615.3846435546875)"
+       id="g482">
+      <circle
+         cx="824"
+         cy="423.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle478" />
+      <circle
+         cx="856"
+         cy="455.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle480" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2584.615478515625,1600)"
+       id="g486">
+      <polygon
+         points="880,479.999998664856 800,559.999998664856 800,479.999998664856 880,479.999998664856"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon484" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1476.923105093149,-1353.846182016226)"
+       id="g490">
+      <polygon
+         points="960,-0.000001335144041902936 880,79.99999866485595 880,-0.000001335144041902936 960,-0.000001335144041902936"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon488" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g500">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g498">
+        <polygon
+           points="880,159.99999866485595 896,79.99999866485595 912,79.99999866485595 896,159.99999866485595 880,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon492" />
+        <polygon
+           points="912,159.99999866485595 928,79.99999866485595 944,79.99999866485595 928,159.99999866485595 912,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon494" />
+        <polygon
+           points="944,159.99999866485595 960,79.99999866485595 960,159.99999866485595 944,159.99999866485595"
+           fill-opacity="0"
+           fill="#07c3f2"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#07c3f2"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon496" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1723.0769577026367,-1107.6923294067383)"
+       id="g510">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g508">
+        <polygon
+           points="880,239.99999866485595 896,159.99999866485595 912,159.99999866485595 896,239.99999866485595 880,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon502" />
+        <polygon
+           points="912,239.99999866485595 928,159.99999866485595 944,159.99999866485595 928,239.99999866485595 912,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon504" />
+        <polygon
+           points="944,239.99999866485595 960,159.99999866485595 960,239.99999866485595 944,239.99999866485595"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon506" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2830.769287109375,861.5384826660154)"
+       id="g516">
+      <circle
+         cx="904"
+         cy="263.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle512" />
+      <circle
+         cx="936"
+         cy="295.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="0"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle514" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,2830.769287109375,1107.6923522949216)"
+       id="g520">
+      <polygon
+         points="960,319.9999986648559 880,399.9999986648559 880,319.9999986648559 960,319.9999986648559"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#087cfa"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#087cfa"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="polygon518" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2092.3077392578125,-738.4615478515625)"
+       id="g530">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g528">
+        <polygon
+           points="880,479.999998664856 896,399.999998664856 912,399.999998664856 896,479.999998664856 880,479.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon522" />
+        <polygon
+           points="912,479.999998664856 928,399.999998664856 944,399.999998664856 928,479.999998664856 912,479.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon524" />
+        <polygon
+           points="944,479.999998664856 960,399.999998664856 960,479.999998664856 944,479.999998664856"
+           fill-opacity="1"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon526" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2215.3846435546875,-615.3846435546875)"
+       id="g536">
+      <circle
+         cx="904"
+         cy="503.999998664856"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle532" />
+      <circle
+         cx="936"
+         cy="535.999998664856"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle534" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,1600.000009390024,-1476.923086313101)"
+       id="g546">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g544">
+        <polygon
+           points="960,79.99999866485595 976,-0.000001335144041902936 992,-0.000001335144041902936 976,79.99999866485595 960,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon538" />
+        <polygon
+           points="992,79.99999866485595 1008,-0.000001335144041902936 1024,-0.000001335144041902936 1008,79.99999866485595 992,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon540" />
+        <polygon
+           points="1024,79.99999866485595 1040,-0.000001335144041902936 1040,79.99999866485595 1024,79.99999866485595"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon542" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g552">
+      <circle
+         cx="984"
+         cy="103.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle548" />
+      <circle
+         cx="1016"
+         cy="135.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle550" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g558">
+      <circle
+         cx="984"
+         cy="183.99999866485595"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle554" />
+      <circle
+         cx="1016"
+         cy="215.99999866485595"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#07c3f2"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#07c3f2"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle556" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(-1.8369701987210297e-16,-1,1,-1.8369701987210297e-16,1107.692306518555,1969.2307891845703)"
+       id="g568">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g566">
+        <polygon
+           points="960,319.999998664856 976,239.99999866485598 992,239.99999866485598 976,319.999998664856 960,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon560" />
+        <polygon
+           points="992,319.999998664856 1008,239.99999866485598 1024,239.99999866485598 1008,319.999998664856 992,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon562" />
+        <polygon
+           points="1024,319.999998664856 1040,239.99999866485598 1040,319.999998664856 1024,319.999998664856"
+           fill-opacity="1"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon564" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2092.3077239990234,-984.6153717041016)"
+       id="g574">
+      <circle
+         cx="984"
+         cy="343.9999986648559"
+         r="24"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle570" />
+      <circle
+         cx="1016"
+         cy="375.9999986648559"
+         r="8"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         fill-opacity="1"
+         fill="#21d789"
+         stroke-opacity="1"
+         stroke-width="1"
+         stroke="#21d789"
+         opacity="1"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="circle572" />
+    </g>
+    <g
+       class="tile"
+       transform="matrix(1,0,0,1,0,0)"
+       id="g584">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g582">
+        <polygon
+           points="960,479.999998664856 976,399.999998664856 992,399.999998664856 976,479.999998664856 960,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon576" />
+        <polygon
+           points="992,479.999998664856 1008,399.999998664856 1024,399.999998664856 1008,479.999998664856 992,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon578" />
+        <polygon
+           points="1024,479.999998664856 1040,399.999998664856 1040,479.999998664856 1024,479.999998664856"
+           fill-opacity="0"
+           fill="#087cfa"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#087cfa"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon580" />
+      </g>
+    </g>
+    <g
+       class="tile"
+       transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,2338.4615478515625,-738.4615478515625)"
+       id="g594">
+      <g
+         clip-path="none"
+         transform="matrix(1.5384615384615385,0,0,1.5384615384615385,0,0)"
+         id="g592">
+        <polygon
+           points="960,559.999998664856 976,479.999998664856 992,479.999998664856 976,559.999998664856 960,559.999998664856"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon586" />
+        <polygon
+           points="992,559.999998664856 1008,479.999998664856 1024,479.999998664856 1008,559.999998664856 992,559.999998664856"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon588" />
+        <polygon
+           points="1024,559.999998664856 1040,479.999998664856 1040,559.999998664856 1024,559.999998664856"
+           fill-opacity="0"
+           fill="#21d789"
+           stroke-opacity="1"
+           stroke-width="1"
+           stroke="#21d789"
+           opacity="1"
+           stroke-linejoin="round"
+           stroke-linecap="round"
+           id="polygon590" />
+      </g>
+    </g>
+  </g>
+</svg>

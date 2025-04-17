@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("bold.ttf");
+    font-weight: bold;
+}
+
+*, body, html, div {
+    font-family: "Comfortaa", -apple-system, sans-serif;
+}
+
+#gpuinfo-inner, #gpuinfo-inner * {
+    font-family: monospace !important;
+}
+
+* {
+    cursor: default !important;
+}
